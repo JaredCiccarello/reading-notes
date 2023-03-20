@@ -13,3 +13,5 @@ My Name's Jared and I think JavaScript is AMIALIAC
 Link to my github Portfolio: https://github.com/jaredciccarello
 
 [Link to my github Portfolio:} (https://github.com/jaredciccarello)
+
+[Link to my github Portfolio: {https://github.com/jaredciccarello}]
