@@ -13,3 +13,5 @@ What I am today does not define where I am going. Until then, the possibility ar
 4. ~~Reminder 6 I like to dance in a circle reciting taylor swift songs~~
 
 [Link to my github Portfolio](https://github.com/jaredciccarello)
+
+[class1 notes markdown](./class1.md)
