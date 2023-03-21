@@ -14,4 +14,4 @@ What I am today does not define where I am going. Until then, the possibility ar
 
 [Link to my github Portfolio](https://github.com/jaredciccarello)
 
-[class1 notes markdown](./class1.md)
+[class1 notes markdown](./Class1.md)
