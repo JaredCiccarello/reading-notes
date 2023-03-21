@@ -2,10 +2,9 @@
 
 My code fellows reading journal
 
-My Name's Jared and I think JavaScript is MAGICAL!
+My Name's Jared and I think JavaScript is OuttaSight!
 
 **What growth mindset means to me**
-
 What I am today does not define where I am going. Until then, the possibility are endless, my only true obstacle is my willingness to sacrifice my time in order to change or stay stagnant.
 
 1. Reminder 1 Remembering to breath when things are hard or complicatd. Learning is like flexing a muscle, it does not work if you suffocate it.
