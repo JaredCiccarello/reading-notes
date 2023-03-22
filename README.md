@@ -15,3 +15,28 @@ What I am today does not define where I am going. Until then, the possibility ar
 [Link to my github Portfolio](https://github.com/jaredciccarello)
 
 [Link to class1 notes markdown](./Class1.md)
+
+
+What are four important features to look for in a text editor? 
+1.) code completion; 
+2.) syntax
+highlighting; 
+3.) a nice variety of themes (to reduce eye strain and
+fatigue); 
+4.) the ability to choose from a healthy selection of
+extensions available when you need them.
+
+What do the following commands do?
+* pwd short for Print Working Directory is plain listing of our current location
+* ls, short for list, Lists the contents of a directory.
+* cd short for change directories, moves to another directory
+* mkdir created one or more directories specified by the Directory parameter
+* touch modify a timestamp the utility is used for file creation, although this is not its primary function.
+
+cd projects
+mkdir new-project
+touch new-project/newfile.md
+cd ..
+ls projects/new-project
+
+When these commands are strung together we are creating a new project file. First we have cd that moves directories into our projects folder. Next mkdir cmd creates a directory, where we name our new file new-project. Next the touch cmd updates the access and modification times of each file specified, in this case it would be "new-project/newfile.md". Next using cmd cd .. we go back a step into projects/new-project. Last we use the ls cmd to list all of the files located inside of this specified folder. 
