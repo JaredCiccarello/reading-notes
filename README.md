@@ -40,27 +40,48 @@ When these commands are strung together we are creating a new project file. Firs
 
 ## Code 102 Reading Notes
 [Day 1 - Growth mindset](102/102-1.md)
+
 [Day 2 - Growth mindset](102/102-2.md)
+
 [Day 3 - Growth mindset](102/102-3.md)
+
 [Day 4 - Growth mindset](102/102-4.md)
+
 [Day 5 - Growth mindset](102/102-5.md)
+
 [Day 6 - Growth mindset](102/102-6.md)
+
 [Day 7 - Growth mindset](102/102-7.md)
+
 [Day 8 - Growth mindset](102/102-8.md)
 
 ## Code 201 Reading Notes
 [Day 1 - Growth mindset](201/201-1.md)
+
 [Day 2 - Growth mindset](201/201-2.md)
+
 [Day 3 - Growth mindset](201/201-3.md)
+
 [Day 4 - Growth mindset](201/201-4.md)
+
 [Day 5 - Growth mindset](201/201-5.md)
+
 [Day 6 - Growth mindset](201/201-6.md)
+
 [Day 7 - Growth mindset](201/201-7.md)
+
 [Day 8 - Growth mindset](201/201-8.md)
+
 [Day 9 - Growth mindset](201/201-9.md)
+
 [Day 10 - Growth mindset](201/201-10.md)
+
 [Day 11 - Growth mindset](201/201-11.md)
+
 [Day 12 - Growth mindset](201/201-12.md)
+
 [Day 13 - Growth mindset](201/201-13.md)
+
 [Day 14 - Growth mindset](201/201-14.md)
+
 [Day 15 - Growth mindset](201/201-15.md)
