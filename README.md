@@ -18,13 +18,10 @@ What I am today does not define where I am going. Until then, the possibility ar
 
 
 What are four important features to look for in a text editor? 
-1.) code completion; 
-2.) syntax
-highlighting; 
-3.) a nice variety of themes (to reduce eye strain and
-fatigue); 
-4.) the ability to choose from a healthy selection of
-extensions available when you need them.
+1. code completion 
+2. syntax highlighting 
+3. a nice variety of themes (to reduce eye strain and fatigue
+4. the ability to choose from a healthy selection of extensions available when you need them.
 
 What do the following commands do?
 * pwd short for Print Working Directory is plain listing of our current location
