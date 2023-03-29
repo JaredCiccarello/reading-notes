@@ -39,21 +39,21 @@ ls projects/new-project
 When these commands are strung together we are creating a new project file. First we have cd that moves directories into our projects folder. Next mkdir cmd creates a directory, where we name our new file new-project. Next the touch cmd updates the access and modification times of each file specified, in this case it would be "new-project/newfile.md". Next using cmd cd .. we go back a step into projects/new-project. Last we use the ls cmd to list all of the files located inside of this specified folder. 
 
 ## Code 102 Reading Notes
-[Day 1 - Growth mindset](102/102-1.md)
+[Day 1 -  Class 1: Growth Mindset & GitHub Pages](102/102-1.md)
 
-[Day 2 - Growth mindset](102/102-2.md)
+[Day 2 -  Class 2: The Coder's Computer](102/102-2.md)
 
-[Day 3 - Growth mindset](102/102-3.md)
+[Day 3 - Class 3: Git/Github](102/102-3.md)
 
-[Day 4 - Growth mindset](102/102-4.md)
+[Day 4 -  Class 4: HTML](102/102-4.md)
 
-[Day 5 - Growth mindset](102/102-5.md)
+[Day 5 -  Class 5: CSS](102/102-5.md)
 
-[Day 6 - Growth mindset](102/102-6.md)
+[Day 6 -  Class 6: JavaScript](102/102-6.md)
 
-[Day 7 - Growth mindset](102/102-7.md)
+[Day 7 -  Class 7: Functions](102/102-7.md)
 
-[Day 8 - Growth mindset](102/102-8.md)
+[Day 8 - Class 8 || Loops & Logic](102/102-8.md)
 
 ## Code 201 Reading Notes
 [Day 1 - Growth mindset](201/201-1.md)
