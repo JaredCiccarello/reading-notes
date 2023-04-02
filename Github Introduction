@@ -1,0 +1,44 @@
+The beginning of the end
+
+Renaming the fault branch from master
+    Github
+
+*Git commit* is a command for putting a file into a snapshot
+
+When we start mixing branches and commits, we will see how these two features combine. For now though, just remember that a branch essentially says "I want to include the work of this commit and all parent commits."
+
+*git checkout <name>* (Note, word 'checkout' was replaced with 'switch')
+This will put us on the new branch before committing our changes.
+
+By the way, here's a shortcut: if you want to create a new branch AND check it out at the same time, you can simply type *git checkout -b yourbranchname*
+
+git checkout <newImage>; git commit
+
+git checkout -b bugFix (This command without -b does not work)
+
+
+
+We will merge the branch bugFix into main.
+*git checkout bugFix; git merge main*
+
+
+Do the following steps: This will create file "bugFix" and merge it back with "main"
+
+Make a new branch called bugFix
+Checkout the bugFix branch with git checkout bugFix
+Commit once
+Go back to main with git checkout
+Commit another time
+Merge the branch bugFix into main with git merge
+
+
+    Rebasing
+combining work between branches
+
+*git rebase* 
+
+Checkout a new branch named bugFix
+Commit once
+Go back to main and commit again
+Check out bugFix again and rebase onto main
+Good luck!
