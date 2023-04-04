@@ -47,7 +47,6 @@ When you click on a color, you'll see a strange six-character code like #660066.
 
 Next, choose an image. Right click and cop the image web address.
 
-
 Next, choose a font:
 
 Go to Google Fonts and find one you like.
