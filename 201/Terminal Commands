@@ -1,0 +1,6 @@
+-a ls: Finds invisible files
+. : Makes files invisible
+mv : moves a file
+.. : moves up one file
+cd : moves down to the next file
+git clone with link from git hub : Will clone your link to ???

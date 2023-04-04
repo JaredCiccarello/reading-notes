@@ -1,13 +1,18 @@
-
-
-## Introduction to HTML
+https://github.com/JaredCiccarello/reading-notes/blob/main/201/class-02.md
 
 ## HTML Text Funadamentals
+One of HTML's main jobs is to give text structure so that a browser can display an HTML document the way its developer intends.
+
+
 
 ## HTML Advanced Text Formatting
 
 Why is it important to use semantic elements in our HTML?
+    A: 
+
 How many levels of headings are there in HTML?
+    A: 
+
 What are some uses for the <sup> and <sub> elements?
 When using the <abbr> element, what attribute must be added to provide the full expansion of the term?
 
