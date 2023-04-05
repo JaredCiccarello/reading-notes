@@ -20,3 +20,15 @@ How do you create a new file in VScode?
 
 Is there a way to duplicate your computer in order to avoid losing work?
 
+<ul>
+    <li>Milk</li>
+    <li>Cheese
+        <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+        </ul>
+    </li>
+</ul>
+How do I make a third row?
+
+How do I find a specific line in the console on a web page?
