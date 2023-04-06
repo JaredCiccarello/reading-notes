@@ -1,0 +1,38 @@
+Which is a correct example of concatenation in JavaScript?
+    A: 'I brush my ' + bodyPart + ' in the morning'
+
+What tag do you need to run JavaScript code in an html file?
+    A: <script></script>
+
+Which is not a data type?
+    A: Which is not a data type?
+
+What command would we use to create and switch to a new branch called debug in Git?
+    A: git checkout -b debug
+
+Which defines the structure of a webpage?
+    A: <HTML>
+
+When writing clean code, which should you avoid?
+        A: Non-semantic variable names
+
+What Unix command would create a new directory called thursday?
+        A: mkdir thursday?
+
+Which of these combinations evaluates to true?
+        A: true && true
+            true || true
+            false || true
+            true || false
+
+Analyze this block of code. Will it run? If not, where is the error?
+1: var gopher = 1;
+2: if (gopher < 10) 
+3:    console.log(gopher);
+4: } else {
+5:   console.log('potato');
+6: }
+        A: No - Line 2
+
+Which is not an example of a JavaScript statement?
+    A: 1 =! loneliestNumber
