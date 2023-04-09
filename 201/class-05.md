@@ -1,16 +1,5 @@
-## Using Images In HTML
 
-## Common Image Types
-
-## Choosing Image Formats
-    
-`How do we put an image on a webpage?`
-
-
-
-
-
-
+Class 05: Readings: Images, Color, Text
 
 What is a real world use case for the alt attribute being used in a website?
     You would use alt, as a way to describe an image. 

@@ -3,4 +3,9 @@
 mv : moves a file
 .. : moves up one file
 cd : moves down to the next file
-git clone with link from git hub : Will clone your link to ???
+git clone with link from git hub : Will clone your link to local storage under the directory you are currently in.
+mkdir: Make directory
+touch: Make file
+rm -rf: remove directory/file
+TAB: will fill in blanks
+up arrows: will help fill in most recent command

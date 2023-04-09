@@ -7,18 +7,9 @@ How to use mkdir and touch properly
 
 ~11:35 - 11:45~ creating files with MKDIR
 
-mkdir
-touch
-rm - remove
-TAB will fill in blanks
-up arrows will help fill in most recent
-Learning about your terminal and it's abilities will make things much easier to naviagate
 
-How do you view someone else's code?
-How do you open an open VScode?
-How do you create a new file in VScode?
 
-Is there a way to duplicate your computer in order to avoid losing work?
+
 
 <ul>
     <li>Milk</li>
@@ -31,11 +22,12 @@ Is there a way to duplicate your computer in order to avoid losing work?
 </ul>
 How do I make a third row?
 
-How do I set borders and widths?
-
 === strictly equal to, compares data type
 == does not compare data type
 
 How to change all data types of the same value in prompt
 
 How does JS deal with negative numbers?
+
+How do I add git add without a dot? What file name should I be putting here?
+
