@@ -22,12 +22,19 @@ How to use mkdir and touch properly
 </ul>
 How do I make a third row?
 
-=== strictly equal to, compares data type
-== does not compare data type
+<!-- === strictly equal to, compares data type -->
 
-How to change all data types of the same value in prompt
+How to change all data types that highlight the same value in prompt
 
 How does JS deal with negative numbers?
 
 How do I add git add without a dot? What file name should I be putting here?
+
+What's the deal with backticks?
+function sum(a, b) { //eslint-disable-line
+    let sumOfNum = a + b;
+    let message = "The sum of ${a} and ${b} is ${sumOfNum}."
+    return [sumOfNum, message]
+}
+Quotes break this code but, backtics do not. Why?
 
