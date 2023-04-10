@@ -28,9 +28,6 @@ How to change all data types that highlight the same value in prompt
 
 How does JS deal with negative numbers?
 
-How do I add git add without a dot? What file name should I be putting here?
-
-What's the deal with backticks?
 function sum(a, b) { //eslint-disable-line
     let sumOfNum = a + b;
     let message = "The sum of ${a} and ${b} is ${sumOfNum}."
@@ -38,3 +35,6 @@ function sum(a, b) { //eslint-disable-line
 }
 Quotes break this code but, backtics do not. Why?
 
+How to find a branch that you've made?
+
+How to keep from making names that already exist?
