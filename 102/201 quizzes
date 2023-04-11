@@ -1,3 +1,73 @@
+Quiz2
+
+Question7
+Assume you are on the main branch of a repository and need to make some edits to 'app.js' on a branch called hotfix. To create and switch to the branch you would enter 
+ , then, after editing, you would enter 
+ to stage the changes, followed by 
+ to make a commit with message of "hotfix of app.js". Lastly, you would enter 
+ to upload the branch to GitHub.
+- git checkout -b hotfix
+- git add app.js
+- git commit -m "hotfix of app.js"
+- git push origin hotfix
+
+Question6
+var movies = ["The Matrix", "Frozen"];
+typeof(typeof(movies));
+The code will produce valid results because both objects are invoked.
+    The code will produce valid results as both typeof calls are invoked with valid JavaScript types.
+
+Question5
+Which of the following correctly lists the outside-in ordering of the components of the CSS “box model”?
+    Margin, Border, Padding, Content.
+
+Question4
+Which of the following are true about HTML elements with inline display?
+    1. The content of inline elements determines their default width.
+    3. All HTML elements with inline display can be changed to block display.
+    4. Inline elements flow within the text and do not start on a new line.
+
+Question3
+Please pick the statement that best describes the default display for the HTML elements listed below:
+
+<span> This is an inline element
+<div>
+<h1>, <h2>, <h3>, <h3>, <h5>, <h6>
+<ul>
+
+    All listed elements, except <span>, are block elements by default
+
+Question2
+Assuming there are no other CSS declarations, and no inline CSS styles, what will the following CSS declaration do to the body element and other HTML elements inside the body tag?
+body { 
+color: white;
+background-color: black; 
+}
+    Change background color of all HTML elements within body to black and change color of all text to white
+
+Question1
+HTML attributes and CSS declarations are examples of key-value pairs.
+    True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quiz1
 Which is a correct example of concatenation in JavaScript?
     A: 'I brush my ' + bodyPart + ' in the morning'
 
