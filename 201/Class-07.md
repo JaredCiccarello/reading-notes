@@ -1,4 +1,6 @@
 ## Domain Modeling
+    
+
 Explain why we need domain modeling.
 
 ## HTML Table Basics
