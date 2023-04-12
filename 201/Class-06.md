@@ -1,7 +1,7 @@
 ## JavaScript Object Basics
 
 How would you describe an object to a non-technical friend you grew up with?
-    An object is a block of code in Javascript, a coding language, that helps identify what something is in a list. If you're creating a list of names for someone, you'll want to have more information about them such as their age, gender, favorite foods, 
+    An object is a block of code in Javascript, a coding language, that helps identify what something is in a list. If you're creating a list of names for someone, you'll want to have more information about them such as their age, gender and favorite foods.
 
 What are some advantages to creating object literals?
 
