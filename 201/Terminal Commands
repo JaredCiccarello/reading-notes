@@ -9,3 +9,6 @@ touch: Make file
 rm -rf: remove directory/file
 TAB: will fill in blanks
 up arrows: will help fill in most recent command
+
+shift+alt+down arrow
+
