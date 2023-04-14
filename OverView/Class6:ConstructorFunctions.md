@@ -10,6 +10,49 @@ seattle would be THIS.
 
 ~9:51~ Memorize this formula
 
+
+
+
+
+
+// We need a 'Constructor function'
+// Object constructors
+
+// this refers to the object that WILL be created
+function Student(name, pronouns){
+  this.studentName = name;
+  this.pronouns = pronouns;
+  this.codeClass = 201;
+  this.onLine = true;
+  this.introduce = function(){
+    console.log(`Hello, my name is ${this.name}`)
+  }
+
+}
+// create instances of Student
+let juan = new Student ('Juan');
+let sara = new Student ('Sara');
+
+console.log(juan);
+console.log(sara);
+
+juan.introduce();
+
+let studentArray = [Sara, Juan];
+
+for let (i = 0; i < studentArray.length; i++){
+  studentArray[i].introduce();
+  // add all stores together
+}
+
+
+
+
+
+
+
+
+
 Remember to do this 
 WHY?
 3 steps for creating webpage:

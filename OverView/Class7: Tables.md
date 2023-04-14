@@ -1,13 +1,23 @@
 Class 07 in repo has graphic table
 Table graphic demo
 
+
+
+<table>
+    <thead>
+    <tbody>
+    <tfoot>
+        <tr>
+
+
+
 text content 
 We give div text.
 
 ~9:29~
 If we want td to be children of tr then we want
 
-    Object literals have commons
+    Object literals have commas
     Constructor function have semicolons
 
 objectLiteral = {
@@ -34,7 +44,7 @@ this.tableRender
 ~9:48~
 what code do I need to write individual functions for?
 
-When do I write renders?
+
 
 let numberArray = [
      0/0    0/1   0/2
@@ -137,3 +147,60 @@ Finish up the header, style the button, and ACP!
 ~12:24~
 Assets folder
 shows all of the photos. We need 4 of them.
+
+
+
+        HTML: Tables
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adopt a Kitten</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <h1>Adopt a Kitten</h1>
+    </header>
+    <main>
+      <h2>Kittens Available for Adoption:</h2>
+      <div id="kittenProfiles">
+        <!-- generate this from js: -->
+        <!-- <article>
+          <h2></h2>
+          <p></p>
+          <ul>
+            <li></li>
+          </ul>
+          <table>
+            <tr>
+              <th>
+                Kids
+              </th>
+              <th>
+                Dogs
+              </th>
+              <th>
+                Other Cats
+              </th>
+            </tr>
+            <tr>
+              <td>
+                true
+              </td>
+              <td>
+                false
+              </td>
+              <td>
+                true
+              </td>
+            </tr>
+          </table>
+          <img>
+        </article> -->
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
