@@ -1,4 +1,67 @@
 
+
+
+
+
+Quiz4
+
+Question10
+Invoke the wizardsOfMiddleEarth function.
+
+function wizardsOfMiddleEarth() {
+  this.gray = "Gandalf";
+  this.white = "Saurumon";
+  this.brown = "Radaghast"; 
+  this.blue = ["Alatar", "Pallando"];
+  return this.gray + this.white + this.brown + this.blue[0] + this.blue[1];
+}
+    wizardsOfMiddleEarth()
+
+Question9
+True/false: Javascript cannot be used to manipulate HTML elements; it is only used in web applications to solve arithmetic calculations.
+    False
+
+Question8
+What does DOM stand for?
+    Documen Object Model
+
+Question7
+True/false: Figuring out your problem domain should only be done after you start writing code; otherwise you do not know whether the code actually works.
+    False
+
+Question6
+True/false: An object is a collection of properties and methods.
+    True
+
+Question5
+What is the term we use for a function that is associated with (or, attached to) an object?
+    A method
+
+Question4
+In the line of code
+
+var turtle = newAnimal("Michelangelo",1);
+"Michelangelo" and 1 are:
+    Arguments 
+
+Question3
+var rabbit = {}; 
+This line of code creates an object by using:
+    Object literal notation 
+
+Question2
+When used inside of an object, this refers to:
+    The object that it is used in 
+
+Question1
+What does Math.floor() do?
+    Returns the largest integer less than or equal to a given number
+
+
+
+
+
+
 Quiz3
 
 Question10
@@ -70,6 +133,11 @@ In JavaScript, the "=" operator is used for what purpose?
     To assign a value to a variable 
 
 
+
+
+
+
+
 Quiz2
 
 Question7
@@ -120,18 +188,6 @@ background-color: black;
 Question1
 HTML attributes and CSS declarations are examples of key-value pairs.
     True
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
