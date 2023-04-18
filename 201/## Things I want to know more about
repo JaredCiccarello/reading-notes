@@ -41,16 +41,15 @@ How to keep from making names that already exist?
 
 Add a link to this new page under the Table of Contents for this course.
 
-How do I use replit?
-
 What does template literal mean?
 
 What does the $ do?
 
 When do I write renders?
 
-Internal v external array for for loops?
+indexArray.push(randomNum);
+.pop grabbing number off the end of the array
+.push
+.shift
 
-Is there an easy way to test if code works? Would Replit be a good way to do this?
-
-Why does there need to be an Alt with a src?
+event.target.
