@@ -53,3 +53,4 @@ indexArray.push(randomNum);
 .shift
 
 event.target.
+json.parse
