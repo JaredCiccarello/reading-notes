@@ -10,6 +10,8 @@ rm -rf: remove directory/file
 TAB: will fill in blanks
 up arrows: will help fill in most recent command
 
+git branch -d -file name-
+
 shift+alt+down arrow
 
 Ctrl + D = Highlights all text that are exact copes.
