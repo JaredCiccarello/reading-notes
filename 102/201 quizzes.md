@@ -1,4 +1,212 @@
 
+Quiz6
+Question10
+In modern browsers, localStorage data is stored in:
+    The file system 
+
+Question9
+Consider the following JavaScript code and pick the statement that best describes the code:
+
+
+function Dog (name, age) {
+  this.name = name;
+  this.age = age;
+}
+var ageDiff = function(dog1, dog2) {
+  return Math.abs(dog1.age - dog2.age);
+}
+ageDiff(new Dog("Sparky", 12), new Dog("Molly", 8));
+    The JavaScript engine will create two Dog objects, then pass them as arguments to function ageDiff 
+
+Question 8
+Consider the following JavaScript objects:
+
+
+var john = new Object();
+john.name = "John Doe";
+john.age = 30;
+
+var henry = {
+  name: "Henry",
+  age: 24
+};
+
+Which of the following statements best describes the two objects above?
+    Both john and henry are valid objects and can have additional properties added to them 
+
+Question7
+Which of the following statements would evaluate as truthy, given the below variable definitions?
+
+var dog = {
+ breed: "Beagle",
+ weight: 30,
+ group: "Hound"
+}
+var key = "weight";
+    A. dog[key] === 30
+
+B. dog["weight"] == "30";
+
+C. "weight" in dog
+
+D. dog.weight
+
+F. dog.hasOwnProperty('weight');
+    A B C D & F
+
+Question 6
+Which of following statements are true about absolute positioning?
+
+A. Absolute positioning lets you determine an element’s location by specifying a left, right, top, or bottom position in pixels, ems, or percentages
+
+B. Adding the following CSS properties to an element will always make it show up on top left corner of an HTML page
+
+     {
+        position: absolute; 
+        top: 0px;
+        left: 0px;
+     }
+C. When using absolute positioning, an element is taken out of normal flow and is positioned in relation to the closest parent that is relatively positioned
+    Absolute positioning lets you determine an element’s location by specifying a left, right, top, or bottom position in pixels, ems, or percentages
+    When using absolute positioning, an element is taken out of normal flow and is positioned in relation to the closest parent that is relatively positioned
+
+D. There is no difference between "position:absolute" and "position:fixed" CSS properties
+
+
+Question 5
+Which of the following best describes fixed positioning?
+    The box is held in the same location even if the page is scrolled
+
+Question4
+Which of the following statements about the CSS float property are true?
+
+A. The CSS "float" property affects the layout of elements in a page
+
+B. Content flows down the right side of a left-floated box
+
+C. Adding a "float" CSS property allows an element to be positioned outside its containing element
+
+D. "float" CSS property can have pixel values such as "10px" or string values such as "left", "right"
+
+E. "clear" CSS property can prevent content from trying to flow around or alongside a floated element
+    The CSS "float" property affects the layout of elements in a page
+    Content flows down the right side of a left-floated box
+     "clear" CSS property can prevent content from trying to flow around or alongside a floated element
+
+Question3
+Consider the following CSS rule:
+h1 { 
+  border-width: 5px;
+  border: dashed blue;
+}
+
+After adding the CSS properties listed above, at 100% zoom, what will be the computed width of the border around an <h1>?
+
+Consider rendering it in your browser and checking it with the inspector.
+    3px 
+
+Question2
+Consider the following HTML code:
+
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Movie Review</title>
+  </head>
+  <body>
+    <div>
+      <h1>Brief Review: <cite>John Doe</cite></h1>
+      <p>Detailed Review by Alison</p>
+    </div>
+    <div>
+      <h2>The Best Movie <em>EVER</em></h2>
+      <p>The movie <cite>New Movie</cite> was the best action movie ever produced!!</p>
+    </div>
+   </body>
+</html>
+    cite {color: red} 
+
+Question1
+Your classmate has an account on GitHub, with a username of "naman14". She has a repository called "Timber". In order to download the "Timber" Git repository on your local machine for the first time, you would issue which of following Git commands?
+    git clone https://github.com/naman14/Timber.git 
+
+
+
+
+
+Quiz 5
+
+Question10
+Which of the following is/are true about JavaScript object properties?
+     Variables declared inside constructor functions are locally scoped and cannot be directly accessed as properties
+
+Question9
+Which of the following are standard CSS pseudo-classes?
+    Target
+    :last-child
+    :hover
+
+Question8
+Consider the following JavaScript code:
+
+function helloCodeFellows(){ 
+ // do some logic and return a valid value 
+}
+var testAlpha = helloCodeFellows();
+var testBeta = helloCodeFellows;
+What is the difference between variables testAlpha and testBeta?
+    Variable testAlpha holds the return value from function helloCodeFellows whereas variable testBeta holds reference for function helloCodeFellows.
+
+
+
+Question7
+Given the following code what style should be applied to make the images stack vertically?
+
+<section class=”isenguard”>
+  <img class=”lotr” src=”orcsWithAxes.gif” alt=”Chopping Down Trees”>
+  <img class=”lotr” src=”treeBeard.png” alt=”Stomping on Orcs”>
+  <img class=”lotr” src=”riverDam.jpg” alt=”Dam breaking”>
+</section>
+    .lotr{display:block;} 
+
+Question6
+What property is used to change the text color of an element?
+    color
+
+Question5
+In the following code which line shows the conflicting code from your working branch?
+
+1    <<<<<<<<<<< HEAD
+2    <h1>Code Fellows</h1>
+3    ===========
+4    <p>Code Fellows</p>
+5    >>>>>>>>>>> master
+    Line 2
+
+Question4
+A function __________ loads only when the interpreter reaches that line of code.
+    Expression
+
+Question3
+What is the error in the following JavaScript code, assuming that there is a button in the corresponding HTML with an ID of "pugbomb":
+
+var pugbombButton = document.getElementById('pugbomb');
+pugbombButton.addEventListener('click', pugbombButtonHandler());
+
+function pugbombButtonHandler() {
+  alert('PUGBOMB!!!!');
+}
+    The handler function is being called inside of the event listener
+
+Question2
+The elements we need to put inside of a form are: input, button and _____?
+    Label
+
+Question1
+A function ____________ loads before any code is executed.
+    Decalaration
+
 
 
 

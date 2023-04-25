@@ -1,3 +1,5 @@
+April 17
+
 Chocolate Pizza review
 
 Check box hack. This is a helpful tool for setting lists.
@@ -8,6 +10,8 @@ You need the .. because you are in the style.css
 We need to tell the computer how to find the image from the CSS file.
 
 flex-direction: column; 
+
+
 
 Flex grid is very similar to flex box
 

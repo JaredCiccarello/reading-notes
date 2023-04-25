@@ -13,3 +13,7 @@ up arrows: will help fill in most recent command
 shift+alt+down arrow
 
 Ctrl + D = Highlights all text that are exact copes.
+
+git config --global --get http.proxy (Finding Proxy)
+git config --system --unset http.proxy (Unset Proxy)
+https://confluence.atlassian.com/bitbucketserverkb/can-t-clone-or-pull-due-to-a-git-outbound-proxy-779171769.html

@@ -54,3 +54,5 @@ indexArray.push(randomNum);
 
 event.target.
 json.parse
+
+Why does git checkout command recover app.js
