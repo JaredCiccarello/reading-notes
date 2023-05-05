@@ -1,6 +1,7 @@
 -a ls: Finds invisible files
 . : Makes files invisible
-mv : moves a file
+mv : moves a file 
+    Example: mv moveFile fileDirectory/ (This command moves moveFile into the directory/folder named fileDirectory)
 .. : moves up one file
 cd : moves down to the next file
 git clone with link from git hub : Will clone your link to local storage under the directory you are currently in.
@@ -15,6 +16,11 @@ git branch -d -file name-
 shift+alt+down arrow
 
 Ctrl + D = Highlights all text that are exact copes.
+
+Touch Notes{1..12}
+Creates files called Notes 1-12
+
+rm namefile nameoffile nailfile
 
 git config --global --get http.proxy (Finding Proxy)
 git config --system --unset http.proxy (Unset Proxy)

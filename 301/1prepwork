@@ -1,0 +1,33 @@
+        ## Arrow function Expressions
+        This is a compact alternative to a traditional function expression.
+
+       Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods. (This, argumentts, super)
+
+       Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
+       
+        Arrow functions cannot use yield within their body and cannot be created as generator functions.
+        
+        High level of react overview:
+            1. User interface library
+            2. Component Architecture 
+            3. Data flow in React
+            4. Component State
+
+        Agnostic. Does not care where your userface will display.
+
+        React passes this component into
+        React DOM to render it to the page
+        React library doesn't care that you're using it in the browser
+
+        A react element is NOT a DOM element.
+            console.log(<p>Paragraph</p>)
+
+        User interface: Going to be used to create interfaces, charts, bars.
+
+        Component trees: Data flows one way through a react app
+            What does this mean? Header parent cannot into 
+
+Each object has a private property which holds a link to another object called its prototype.
+
+
+
