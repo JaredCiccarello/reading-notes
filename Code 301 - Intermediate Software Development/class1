@@ -1,0 +1,199 @@
+Monday May 8, 2023
+301 Orientation!
+
+frosted poptarts or organic poptarts
+iphone or android
+
+How do we mitigate biases?
+
+    301 different from 201
+
+Materials really build off of each other
+V important that each lab be submitted
+
+201 labs account 35% of grade
+301 labs account 15% of grade
+
+This is because there are code challenges.
+
+Time box the code challenge. Labs are more important.
+
+Reminder, readings are ONLY for familiarity NOT memorization or understanding. Do the readings!
+
+Reflections (Learning journal) are being called RETRO's. This is a reflection on what you're learning.
+
+Career stuff will be used in 401. Save any responses on the assignments.
+
+Start building connections NOW! 
+
+Who is the 401 python instructor?
+
+
+
+
+
+
+    ARROW FUNCTIONS
+~ 10:10 ~
+
+let arrowAdd = a => a + 6;
+let arrowAdd2 = (a, b) => a + b
+
+let arrowAddCurly = (a,b) => {
+    let sum = a + b;
+    return sum;
+
+use or
+use return a + b;
+}
+
+Easy thing to forget! "return" is typically always used in a code block
+
+"this" has different powers and it's fine to avoid this for now.
+
+    CLASSES
+
+// 201 constructor
+function Musician(artist, style) {
+    this.artist = artist;
+    this.style = style;
+    this.isAmazing = true'
+}
+
+let beyonce = new Musician('Beyonce', 'R&B and Soul');
+console.log(beyonce);
+
+
+// Class
+class MusicianClass {
+    constructor(artist, style) {
+        this.artist = artist;
+        this.style = style;
+    }
+}
+
+let beyonceClassInstance = new MusicianClass('Beyonce', 'R&B and Soul');
+console.log(beyonceClassInstance)
+
+The class should look similar with the exception of this.isAmazing = true
+
+The big difference between classes and constructors is that we can extend them.
+
+
+
+class MusicGroup extends MusicianClass {
+    constructor(artist, style, members) {
+        // this is a method that feeds things up to the class
+        super (artist, style);
+        this.members = members
+    }
+}
+
+
+~ 10:33 ~
+Adding methods
+
+
+~10:44~
+    Code Challenge
+
+Code setup
+
+npm install code 301 setup
+
+node modules folder that acts as your engine
+
+Each day you will be bringing a code challenge into each file for that day
+
+Scrolling up will show you what is passing and failing
+
+6 questions that you'll need to do.
+Timebox this to ONE HOUR.
+
+ModZilla for Array.prototype.forEach() has better documentation. Go through the full page, it will be very informative.
+
+???? is different than the i++
+
+~11:10~
+// This is called a callback function
+arr.forEach(add6) => (
+    let sum = a + 6;
+    newerArr.push(sum);
+)
+
+
+    TODAY'S LAB
+
+What is react? JavaScript library used to build user interfaces.
+This is similiar to chart.js
+
+UI: Button that user clicks on, stuff that gets generated.
+
+~11:31~
+Repeating code:
+D on't
+R epeat
+Y ourself
+
+Writing code that isn't easy to maintain is hard to change.
+
+How do we avoid this? Create a component.
+
+Instead of hard coding every single time, you create a component that follows the same logic.
+    THIS IS THE REAL POWER OF REACT
+
+
+    Instance of React
+
+// To create a New Instance of react
+NPX createReact.App
+
+Lab: gallery-of-horns
+    (NPM WARN deprecate version of TAR no longer supported)
+
+You can use HTML inside of our JS in order to help our brains understand what we are doing instead of using "append" "clickevent"
+
+We can't just go live from here.
+
+We need to run a code: npm start
+
+
+Functional components and Class components.
+
+Functional components are newer.
+
+301 we will learn class components.
+
+// 3 things you'll need for EVERY class component
+1. Import React from 'react
+2. Declare the class: Class App extends React.Component {}
+3. export the class
+export default App:
+
+~11:55~
+    render(){
+        return <h1>Welcome to 301</h1>;
+        )
+    }
+
+return can only return one thing wrapped around it.
+
+~12:00 - 12:07~
+Now I want to create a website that will return an article for everyone in the 301 class.
+
+~12:13~ Props 
+This help create multiple instances of a component.
+
+Prop is an object. 
+
+<Person name='individual'>
+
+~12:18~ Just get the "name" from prop
+.name drills down to find only the name
+
+ctrl c in terminal to get out of library
+
+
+~12:24~  Create github repo
+DO NOT touch anything else after repository name
+
