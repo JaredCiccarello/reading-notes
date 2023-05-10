@@ -22,6 +22,8 @@ Creates files called Notes 1-12
 
 rm namefile nameoffile nailfile
 
+npm start: opens up webpage
+
 git config --global --get http.proxy (Finding Proxy)
 git config --system --unset http.proxy (Unset Proxy)
 https://confluence.atlassian.com/bitbucketserverkb/can-t-clone-or-pull-due-to-a-git-outbound-proxy-779171769.html
