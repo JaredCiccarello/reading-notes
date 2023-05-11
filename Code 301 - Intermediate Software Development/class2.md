@@ -1,5 +1,7 @@
 May 9, 2023
 
+REACT IS VERY NOSTALGIC: It uses several things from the way HTML used to be.
+
 Sheyna learned CSS from a book "I could have read that chapter over and over and it would have not made sense. What made sense was moving on to the next chapter."
 
 Allergic to oranges
@@ -175,3 +177,8 @@ emojiFinder.com
 https://react-bootstrap.github.io/getting-started/introduction
 Going to COMPONENTS tab will show you all the different components you can use in projects.
 
+    STATE 
+is data that belongs SPECIFICALLY to that component
+Data that the component can change
+
+Stopped at 2:34:42

@@ -1,0 +1,121 @@
+May 10, 2023
+
+Code challenges/labs close on Sunday
+Prework due? Ask about resubmissions.
+
+First 3 days of week 2 are INTENSE. One of the hardest weeks at CodeFellows.
+
+Week 3 is partnered labs
+
+
+~9:23~ CODE REVIEW
+CODE CHALLENGE
+Array.map
+Using the map will create a new array
+
+~Challenge 5
+We will need a forEach
+What is the thing that gets passed inside of an object? Callback Function
+¬¬
+~9:30~
+~Challenge 6
+Map is a js function
+
+Map is much more efficient because it creates an array preventing more lines of code.
+
+
+Code Review Lab
+
+No module folder? npm install
+Make sure to reinstall everytime you clone a REPO. The install comes from the internet and is not something that follows your repo.
+
+~12:57~ Lab review
+
+<> we need to have this to have a wrap. This is again called Fractional element.
+
+~10:11~ P tag 
+on card p-1 height 100%
+Image spacing
+
+~10:16~
+
+3 important steps for Bootstrap
+1. import 'bootstrap/dist/css/bootstrap.min.css';
+2. npm install react-bootstrap bootstrap
+3. 3. Import desired bootstrap component
+ - Ex. In VS Code in desired file:
+importButton from'react-bootstrap/Button';
+
+~10:19~
+Where do props come from? Parent component
+Careful with card.text it may not show what you would like it to.
+
+~10:27~
+
+handleLikes is a method. this.handleLikes
+this refers to the class hornedBeast.
+
+~10:30~
+Very important for it to be an arrow function specifically.
+
+When react creates a component, it will defines things like setState. Brings all stuff down, so SUPER just adds in on the class because we are adding setState.
+
+
+
+~10:41~ REVIEW OVER
+
+Before we merge anything, we wait for the tests to pass before we push the code.
+
+Check the logs to see the errors. 
+
+
+
+~10:47~ Code challenge 3
+
+.filter
+
+filter is similar to map in that it creates a new array.
+However we can put in a conditional statement on all the values in the array. 
+
+let arr = [1,2,3,4,5,6,7,8,9];
+
+let newArr = arr.filter ((num) => {return num > 4});
+Console.log(newArr);
+
+let newArr2 = arr.filter (num) => num > 4);
+Console.log(newArr2);
+
+Both of these do the same thing
+
+
+
+
+~11:00~ lab 3
+
+Finding the shared parent
+
+Put state in App.js
+put method to update state in app.js
+
+Put some hearts in state to be passed down
+
+The clickEvent is going to happen in our beast.js, in order to prevent this we have to find the shared parent and do the changes we want in the parent rather than beast.js
+
+~11:18~ Reference hearts
+
+~11:28~ SUCCESS!
+
+
+~11:32~ Lab review continued
+
+~11:40~ modal
+
+~11:51~ Testing
+
+This is how we confirm everything will work
+
+~11:58~ display name of the person that was clicked on
+
+this drags on for a while...
+
+~12:
