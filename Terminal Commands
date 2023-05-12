@@ -1,15 +1,30 @@
 -a ls: Finds invisible files
 . : Makes files invisible
+
 mv : moves a file 
     Example: mv moveFile fileDirectory/ (This command moves moveFile into the directory/folder named fileDirectory)
+
+pwd (present working directory): This command shows you the chain in the terminal from parent file
+
+ls -a: Shows all 
+
 .. : moves up one file
+
 cd : moves down to the next file
+
 git clone with link from git hub : Will clone your link to local storage under the directory you are currently in.
+
 mkdir: Make directory
+
 touch: Make file
+
 rm -rf: remove directory/file
+
 TAB: will fill in blanks
+
 up arrows: will help fill in most recent command
+
+
 
 git branch -d -file name-
 
