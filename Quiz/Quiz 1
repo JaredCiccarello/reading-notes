@@ -1,0 +1,70 @@
+Question 1
+What is the correct way to bring a component into another file?
+    import Component from './path-to-component.js';
+
+Question 2
+    What does MVC stand for?
+    Model-View-Controller
+
+
+Question 3
+Functions that are arguments, passed in to a function to be executed at a later point (for instance, when some event occurs) are often called:
+Callback functions 
+
+Question 4
+Which example below shows the best way to prevent the default behavior of actions (e.g., link clicks or form submissions) writing custom event handlers?
+    function eventHandler(event) {
+    event.preventDefault();
+    // Do other stuff
+  }
+
+Question 5
+In your terminal, you are working in the main branch of a Git repo. Which of the following Git commands will create and check out a new branch named "foo" as a copy of the main branch?
+    git checkout -b foo
+
+Question 6
+How would you make a button that when clicked, updates the state of 'listening' from 'false' to 'true'?
+    <button onClick={() => this.setState({ listening: true })} >Click Me</button>
+
+Question 7
+    Let's say that a parent component passes a piece of state into a child component as props. How can that child component update the state of the parent component?
+    The parent component would have to pass a function as a prop into the child component that would allow them update the state in the parent component.
+
+Question 8
+Consider the following:
+
+class Main extends React.Component {
+  constructor(props){
+      super(props);
+      this.state={
+           email: cat@house.com 
+      }
+     render() {
+        return(
+          <Profile />
+        )
+     }
+  }
+}
+How would you send the email from state into the `Profile` component with a key of 'email'?
+    <Profile email={this.state.email} />
+
+Question 9
+React was created by Jordan Walke at Facebook
+  True 
+
+Question 10
+  In your terminal, which command will navigate to the immediate parent directory of your current working directory?
+    cd ..
+
+Question 11
+What command can you use in your terminal to initialize a new react application?
+    npx create-react-app <application-name>
+
+Question 12
+Which of the following statements is NOT consistent with Agile Development philosophy?
+    Once software requirements are determined by user stories, they should never be changed during the development lifecycle.
+
+Question 13
+You would like to call the `handleClick` function whenever a button is clicked. How would you do that with React?
+    <button onClick={this.handleClick}>Click Me</button>

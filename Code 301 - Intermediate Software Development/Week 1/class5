@@ -1,0 +1,135 @@
+May 12, 2023
+
+Warm up Exercise
+
+~9:34~ Code Challenge 4
+
+Question 6
+
+sort does so by default
+
+Look at the sort replit in the class repository, it will help to understand your next steps.
+
+
+~9:48~ Lab 4 Review
+
+Componentization: Where we can put things
+
+onChange: This refers to an event in our code.
+
+parseInt turns a string into a number
+
+When state is updated render function will re-render the page.
+
+Each individual beast that is iterated over is being asked if it is strictly true or strictly false.
+
+~10:02~
+event.target.all
+
+~10:05~ This is what we do if it equals all
+
+What do we need to do to identify all of our beasts in our drop down menu? hornedBeast: data
+
+?????????????
+
+~10:30~ End lab review
+
+~10:32~ Code Challenge 5 REDUCE
+
+Comparing values
+
+Helps by reassigning previous value
+
+Let\'s is our start value
+
+    Rewatch code challenge for better understanding.
+
+How do we refer to an empty array? newSWArr.push()
+
+prev,current
+prev is our previous value and current is the next value
+
+console.log(StarWars[7]).episode
+console.log(StarWars[7]).['episode']
+Does the same thing
+
+
+
+
+
+~10:53~ Bracket notation
+
+Personal note: Start asking "What are we trying to accomplish? How do we get to that point? What do we need to do? What do we need to know?"
+
+~11:05~ One more tool in your toolbelt
+
+
+Note: Reduce is a little hard to learn, don't get bummed, just keep going and ask questions.
+
+
+
+
+
+~11:20~ Lab 5 work with someone else's code
+
+There are no new concepts in this class.
+
+There are two parts:
+
+Part 1: Trello board
+
+Need to make a trello account
+
+Make sure your board is public when creating
+
+
+We are using CSS3 add this to your resume
+
+
+~11:01~??????????????
+
+~11:05~
+SCSS You can use this to reflect your own.
+
+Prioritize tasks but, don't worry about getting everything done right away.
+
+Be sure to submit all 3 links
+Trello
+Github
+Netlify
+
+
+
+
+
+
+
+~11:54~ Next week preview
+
+~12:01~ THE CLIENT
+
+
+Server: We will build servers and send requests to it.
+
+Front end: personal computer (Client)
+back end: Somebody elses computer (API, Servers)
+
+The way all of these things talk to each other is the web request response cycle.
+
+query: cat photos
+
+Practice targeting specific elements of your data because we will be doing this ALOT.
+
+~12:07~ 
+How do I refer to the data array? By calling the filename data.
+
+Find examples on the internet to help you dig down into 
+
+Google: Sample data array then find specific data.
+
+In real world we don't make direct requests to the API. We will for the purpose of this lab.
+
+Go through your hornedbeast code and be sure to add lots of comments.
+
+Follow the logical threads, what is this doing in our code?
+

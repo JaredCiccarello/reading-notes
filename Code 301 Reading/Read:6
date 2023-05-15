@@ -1,0 +1,59 @@
+## How I explained REST to my brother
+
+1. Who is Roy Fielding?
+    
+Roy Fielding is a computer scientist known for his significant contributions to the World Wide Web
+
+2. Why don’t the techniques that we use in this class work well when we need to be able to talk to all of the machines in the world?
+    The techniques used in a class typically focus on small-scale or localized scenarios, where the number of machines or devices involved is limited and under the control of the class environment. This could also be due to things like: scalability, heterogeneity, security and privacy, network connectivity, and dynamic nature.
+
+3. What is the HTTP protocol that Fielding and his friends created?
+    The HTTP protocol (Hypertext Transfer Protocol) is a set of rules and conventions that govern the communication between web browsers (clients) and web servers. It allows for the retrieval and exchange of resources, such as HTML pages, images, videos, and other content, over the World Wide Web.
+
+4. What does a GET do?
+    A GET request is one of the methods used by a client (such as a web browser) to retrieve a resource from a server. When a client sends a GET request, it is asking the server to provide the specified resource identified by a URL (Uniform Resource Locator).
+
+The GET method is primarily used for retrieving data, such as web pages, images, documents, or any other type of resource that can be accessed via a URL. It is considered a safe and idempotent operation, meaning that it should not have any side effects on the server, and making multiple identical GET requests should have the same result as a single request.
+
+5. What does a POST do?
+     A POST request is one of the methods used by a client (such as a web browser) to send data to a server for further processing or to create a new resource. When a client sends a POST request, it submits data to be handled by the server.
+
+The POST method is often used when a client needs to send data to the server as part of a request, such as submitting a form, uploading a file, or sending structured data. Unlike GET requests, which primarily retrieve data, POST requests are intended for actions that modify server-side resources or trigger some server-side processing.
+
+
+6. What does PUT do?
+    the PUT request method is used by a client to send data to a server, typically to update or replace an existing resource at a specific URL. When a client sends a PUT request, it instructs the server to store the enclosed data at the provided URL.
+
+The PUT method is often used for resource creation or updating when the client has the complete representation of the resource and wants to ensure that it is stored at a specific location. The data sent in a PUT request should fully represent the desired state of the resource being updated.
+
+7. What does PATCH do?
+    the PATCH request method is used by a client to partially update an existing resource on a server. Unlike the PUT method, which replaces the entire resource, the PATCH method allows for making partial modifications to a resource by sending only the changes or updates.
+
+The PATCH method is commonly used when a client wants to apply specific modifications to a resource without sending the complete representation of the resource. It is useful in scenarios where it is more efficient or practical to send only the changes rather than the entire resource.
+
+
+https://my.locationiq.com/dashboard#accesstoken
+
+Geocoding API: 
+Access Token pk.58bcf315c7085a99b8efa8d378c24906
+
+
+https://www.weatherbit.io/account/dashboard
+
+Weather Bit API: abb2b4b1581f48c9a51e173d388e7de4
+UserName: Jared
+CulturedHike
+
+
+
+https://www.yelp.com/developers/v3/manage_app?saved_changes=True
+
+Yelp API Docs:
+XRY8NcxfLtlRug8mwM-jcydLhGcqjmCu7sFUqyAJAJ6jP8ZVqmt0XZdPqAsiIzivSty2gVRtfXxoaAY7yHcMlOSNTEHqCR4aMAfSDHPHXeUfGXT2DWaz1HfsjJ5hZHYx
+
+
+https://www.themoviedb.org/settings/api
+
+The Movie DB API Docs: f46809d7679fc6db87fe640580fb5147
+JaredCiccarello
+CulturedHike

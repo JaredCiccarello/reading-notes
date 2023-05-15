@@ -23,9 +23,47 @@ This is all what you will see with filter.
 
 ~9:20~ difference about filter
 
-We are going through each item in the array and we are going to do stuff to the array.
+    with MAP
+We are going through each item in the array and we are going to do stuff to the array. num => num + 1
+
+
+    Filter 
+
+Filter is similar. 
+
+MAP let newArr2 = arr.map (num => num + 1)
+
+
+
+
+FILTER newFilteredArr = arr.filter(num => num > 6);
+console.log(newFilteredarr);
+
+In this example we are still doing arr.filter.
+We must declare a value for each value that we iterate over. (num => num > 6);
+                ^^^Note this is a callback function
+
+
+let forLoopFilterArr = [];
+for (let i = 0; i < arr.length; i++) {
+    let num = arr[i];
+    if (num > 6) {
+        forLoopFilterArr.push(num)
+    }
+}
+This code does the exame same thing as newFilteredArr does.
+
+
+FILTER WILL ALWAYS RETURN AN ARRAY
+Even if no value can be found it will still give us an array.
 
 reminder for loop for {i = 0; i < arr.length; i++>}
+
+SideNote: React does not ++ so we will use + 1
+
+
+
+
 
 ~9:23~ This does the same thing as this
 
@@ -136,12 +174,12 @@ What 4 files should I remove?
 — Remove code for reportWebVitals in index.js
 — Change App.js to class based component) and remove use of logo
 
-~10:55~
+~10:55~ import react
 
     Always remember when making class component
-    1. Declare class component
-    2. render and return
-    3. Export
+    1. Import React from 'react'
+    2. Declare class component, render and return
+    3. Export default
 
 
     class App extends React.Component
@@ -151,9 +189,15 @@ What 4 files should I remove?
 
     export default App;
 
+
+
+-Object-
 {} declaring an object like this will identify that specific object from another file.
 
+-bootstrap
 We wouldn't import ALL of bootstrap in order to avoid causing a lag in processing speed. However if we had multiple lines of bootstrap imported, we may for simplicity sake just import all of the bootstrap code.
+
+
 
 ~11:05~ Bootstrap's version of UL
 
