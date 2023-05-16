@@ -1,0 +1,47 @@
+## An Introduction to Node.js on sitepoint.com
+
+<ol>
+1. What is node.js?
+    Node.js enables JavaScript to run on the server-side, providing access to system resources and allowing developers to create web servers, networking tools, command-line utilities, and more.
+
+2. In your own words, what is Chrome’s V8 JavaScript Engine?
+    V8 is event driven and interprets Javascript in high performance. It is considered and open-source JavaScript engine meaning that it can code efficiently and quickly within its regular environemtn.
+
+3. What does it mean that node is a JavaScript runtime?
+    Node.js provides an environment for executing JavaScript code outside of a web browser. Node.js is built on top of the V8 JavaScript engine, which is the same engine used by the Google Chrome browser. It simply refers to the environment or platform that allows JavaScript code to be executed outside of a browser.
+
+4. What is npm?
+    NPM (Node Package Manager) is a package manager for Node.js, which is a JavaScript runtime. It is a command-line tool and a registry of packages that allows developers to easily discover, install, and manage dependencies for their Node.js projects.
+
+5. What version of node are you running on your machine?
+    v19.8.1
+
+6. What version of npm are you running on your machine?
+    9.5.1
+
+7. What command would you type to install a library/package called ‘jshint’?
+    npm install jshint
+
+8. What is node used for?
+    Building Web Servers, Developing server-side applications, Command-line tools and scripts, backend for mobile and web applications and real-time applications.
+
+</ol>
+
+## 6 Reasons for Pair Programming
+<ol>
+
+1. What are the 6 reasons for pair programming?
+    1. Increased code quality
+    2. Knowledge sharing
+    3. Better problem-solving
+    4. Continuous feedback and code review
+    5. Improved team collaboration and communication
+    6. Enhanced productivity and reduced time-to-market
+
+2. In your experience, which of these reasons have you found most beneficial?
+    Knowledge sharing has been crucial for this process. There are moments that I excel when it comes to task oriented work but, ambiguous instructions are where I start to fall behind. Knowledge sharing helps fill in the gaps where I would usually fall behind.
+
+3. How does pair programming work?
+    Two programmers work together on a single task, typically at the same workstation.
+
+</ol>

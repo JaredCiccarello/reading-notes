@@ -1,0 +1,207 @@
+May 15, 2023
+
+Recruiter employment
+Is this a reputable company?
+Be sure to vet people.
+Jobs not doing technical interviews? Usually multi step
+
+After bootcamp keep working on individual projects
+
+
+10 minute talk about lab
+
+
+~9:16~ Code Challenge 5
+
+We need REDUCE to take objects from our array and put them into a new function
+
+Question 5
+// Very first parameter it takes CALLBACK => {}
+// Callback function takes in arguments
+// return arr.reduce({nameArr, currentChar) => {
+  // nameArr.push();
+  // return.nameArr;
+// }
+
+REPLIT
+let arr = [2,6,3,,9,5];
+
+let newArr = arr.reduce((prev, curr) => {
+    console.log(prev,curr);
+    prev.push(curr);
+    return prev;
+}, []);
+
+Because prev is an array, now we can do .push
+If you made the empty array 0 instead the final value would stay 0. If it is kept as an array, the final value will be an empty array.
+
+~???~ Question 5 SOLVED
+
+
+Question 6
+
+const reversedString = (str) => {
+
+};
+
+let str = 'this is a string'
+
+let arrFromStr = str.split('');
+console.log(arrFromStr);
+
+console will be 'this is a string'
+
+adding .split will split each letter from the word into indvidual strings 't' 'h' 'i' 's'
+
+We can't do reduce on an array
+We need to turn string into array
+We will need to use str.split
+
+let arr = str.split('');
+
+~9:54~ Question 6 SOLVED
+
+~9:53~ PRACTICE THIS ON REPLIT
+
+
+
+~10:05~ Code Challenge 6 REVIEW
+
+let pets =['fido', 'Spot', 'Sparky'];
+let copiedPets = pets
+console.log('pets: ', pets);
+console.log('copiedPets: ', pets);
+
+copiedPets.push('Buddy');
+console.log('pets: ', pets);
+console.log('copiedPets: ', pets);
+
+// Arrays and Object don't work the same way
+
+How do we get around the buddy from being on the pets array and stay only on the pets array? A deep copy.
+
+[...pets] this creates a mini for loop
+this spits out all the values of pets outside of an array
+
+
+
+~10:24~ TERNARIES
+
+basic format of a ternary
+
+
+What ? true : false
+storeIsOpen ? console.log('open') : console.log('closed');
+
+storeIsOpen
+    ? console.log('open')
+    : console.log('closed');
+
+These do the same thing.
+
+
+~10:30~ Lab 6 REVIEW
+
+How are we getting information?
+
+WRRC: Web Request Response Cycle
+
+How do we define the diffrence between the front end and the back end? 
+Front-end: What user see's
+Back-end: What happens on someone else's computer
+
+
+FOR LAB 6 we will make a request to 
+
+REST: Representational State Transfer
+Get
+Post
+Delete
+Put
+
+Think of it like this: 
+    If I have a gift and I want to give it to you.
+    There are a number of ways I could do this.
+    Drive it.
+    Deliver it.
+    Meet at a place.
+    If I deliver it there are a multitude of steps that I need 
+
+
+??????????????????????
+
+
+
+
+Dealing with AXIOS? Do these 3 things.
+1. async
+2. await
+3. data
+
+Personal Note: Console.log will help you identify what each element renders.
+
+
+~11:38~ char.name STRONG POINT OF CONFUSION
+Naming variables needs to be clear so that we can understand what data we need to call to dig down into specific data that we would like to express.
+
+If you find data from an API make sure it's stable
+
+
+~11:40~ Lab for today
+
+You'll need axios
+get a location key
+
+Running an API costs money
+    - web hosting
+    - Traffic
+
+
+    HIDING CRITICAL DATA
+When we have critical information that we don't want others to have, we should create: .env file
+
+what does .gitignore do? Allows you to hide certain files
+got into gitignore and add .env
+.env does not get pushed up to github
+
+All .env files need REACT_APP_
+
+LOCATIONIO_API_KEY=
+
+If I want someone to read my files
+.env.sample
+REACT_APP_LOCATIONIO_API_KEY=<your-api-key>
+
+Search/Forward Geocoding on locationIQ
+
+Abstract use a template literal `1`
+
+~12:13~ This will search for whatever city I pass in
+
+~12:15~ process.env
+
+
+~12:20~ FINALLY reviewing the lab
+
+
+
+~12:27~ Add in some error handling
+
+Netlify will not have access to API key
+
+
+~12:34~ Try catch
+
+
+try {
+
+} catch (error) {
+
+}
+
+Try is kind of like your if
+
+put this inside your swCode
+
+Should have drawings of 5 different WRRC
+
