@@ -1,6 +1,5 @@
 ## An Introduction to Node.js on sitepoint.com
 
-<ol>
 1. What is node.js?
     Node.js enables JavaScript to run on the server-side, providing access to system resources and allowing developers to create web servers, networking tools, command-line utilities, and more.
 
@@ -25,10 +24,9 @@
 8. What is node used for?
     Building Web Servers, Developing server-side applications, Command-line tools and scripts, backend for mobile and web applications and real-time applications.
 
-</ol>
 
 ## 6 Reasons for Pair Programming
-<ol>
+
 
 1. What are the 6 reasons for pair programming?
     1. Increased code quality
@@ -43,5 +41,3 @@
 
 3. How does pair programming work?
     Two programmers work together on a single task, typically at the same workstation.
-
-</ol>
