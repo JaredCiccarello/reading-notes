@@ -3,3 +3,6 @@ What tech company motivates you?
 
 If you need to load anything using a network request or initialize the DOM? What does this mean?
 
+Patch/fix version number?
+
+state.cityData.lon ???? How do we know to not use setState?

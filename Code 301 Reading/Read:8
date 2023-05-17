@@ -1,0 +1,31 @@
+## API Design Best Practices
+
+1. What does REST stand for? Representational State Transfer.
+
+2. REST APIs are designed around a ____. APIs are designed around a set of principles or constraints known as the REST architectural style.
+
+3. What is an identifier of a resource? Give an example.
+    A character sequence. An example of this would be a URL with a name inserted inside of it.
+
+4. What are the most common HTTP verbs?
+    Get, POST, PUT, PATCH, and delete.
+
+5. What should the URIs be based on?
+
+6. Give an example of a good URI.
+    A good URI needs to follow a predictable structure and clear understanding.
+
+7. What does it mean to have a ‘chatty’ web API? Is this a good or a bad thing?
+    Chatty simply means that the API requires a large number of requests to accomplish a single task. This is not considered a good thing as it can take up memory space, result in decreased preformance, and additional data serialization. This can result in slower response times, increased bandwidth usage, and higher server load.
+
+8. What status code does a successful GET request return?
+    status code 200 OK
+
+9. What status code does an unsuccessful GET request return?
+    This can return several such as 404, 400, 401 and even 500!
+
+10. What status code does a successful POST request return?
+    it returns HTTP status code 201
+
+11. What status code does a successful DELETE request return?
+    returns the HTTP status code 204 No Content

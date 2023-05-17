@@ -1,0 +1,303 @@
+May 16, 2023 
+
+~9:03~ Lab 6 review
+
+Basic setup for city explorer.
+
+What's our first steps?
+
+    We need a class and a constructor. We will also add a cityName to that constructor.
+    What do we need to get something on the page? Render
+    Next we will need a return value
+    Then we will add an <h1> with text like "city explorer"
+    Next we will add a <Form>. This will cause issues without a frag <> wrapping the form.
+    A parenthesis will also need to wrap around everything under the return.
+    
+    Next we need handleCitySubmit = {event} => {
+
+    }
+
+        FORM and STATE
+    How do we get the form to know about the handlecity? <Form onSubmit-{this.handleCitySubmit}> We have to add the submit to the form.
+    Why do we use THIS? Because its inside our component.
+    When dealing bootstrap components, when dealing with form? Form.label> Search for a city:
+    <Form.Control onChange={this.changeCityInput}/>
+    Why do we need something inside of onChange? Because it is a different event entirely. ???
+    State does not work quickly. ???
+    ~9:27~ We will need to make a setState inside of changeCityInput: cityName: event.target.value. WE NEED THIS IN THERE OR IT WILL END UP BEHIND. ???
+
+    * Put an astrix in your refers to avoid localhost error
+
+    API KEY
+    Next grab our API key and submit it inside .env file
+    REACT_APP_  all environmental variables will need to start with this.
+    Then add REACT_APP_LOCATIONIO_API_KEY=YOUR KEY
+    Add this file name under .gitignore, it prevents the file from beind added to github
+
+    .ENV
+    Once we change .env the code will not recognize the change. We will need to restart our server. Before that we need to make sure we have something that can make a request of our  
+    What's another thing that helps us make a request of an API? axios - npm install axios.
+    Next we will import axios from 'axios'; This is lower case because it is not a component.
+
+    URL
+    Next we need a url let = url;
+    When creating our URL we need to add in process.env. then name the file variable that you are needing, in this case it is our locationIO API KEY. Process.env is something that we will just need to know.
+   ~9:44~ We will then add in this.state.cityName
+   We can add this url into a browser to see if it functions the way we intend.
+   JSON.formatter makes the code much easier to read in the browser.
+
+   AXIOS
+   Dealing with AXIOS? Do these 3 things.
+1. async
+2. await
+3. data
+    Confirming that we can get data.
+    ~9:50~
+    cityData.data should give us an array of data.
+    We know .data will be what we need because axios always has it's information wrapped in .data. ???
+    Next we need position[0] in order to identify our first value.
+    We will then create a variable of city data under our constructor and make it an empty object. So that we can use this variable later.
+
+
+    CARD
+    We need a card img, body, and text.
+    In our text we will need the lat and lon data. Since this is not inside of an array we will not need to identify a position. This means we can just add .lat and .lon to our cityData
+  ~10:00~ Inside of TITLE this.cityData.display_Name !!!!!!
+
+    QUERY
+    ? is how our query knows to look for a ?key?
+    How does our url query know to look for the next value? &
+    We will put our query information inside of our image 
+    `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIO_API_KEY}&center=${cityData.data[0].lat},${cityData.data[0].lon}&zoom=12`
+    Note how we have used process.env + API Key - &center= - ${cityData0} - .lon/.lat
+    This is how we will identify an image.
+
+    ~10:10~ Try Catch
+    Check the video to EDIT this.
+      try {
+      //CHANGE THIS
+      // let city = await axios.get(url);
+      this.setState({
+        error: false
+      });
+    }
+    catch (error) {
+      this.setState({
+        error: true,
+        errorMessage: `An error Occured: ${error.response.status}`
+      });
+    }
+  }
+  What's the basic format for a turnary? W T F
+  W hat
+  T 
+
+  
+
+
+
+  ~10:30~ Code Challenge 07
+  join
+  spice
+  split
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ~10:33~ Lab 7 Review
+    Everything we have done is entirely on front-end: User's computer
+    Now we work on the back-end: Other computers or server
+
+    This will complete the Full-stack
+
+    Node is an open source, cross platform, back-end environment.
+
+    Node let's us run javascript on back-end
+
+Express.js: a NPM package used to build a server.
+
+
+
+
+
+    ~10:43~
+    Server.js
+
+When INSTALLING must be in folder
+
+    COLOR THEME
+    Change color scheme of back-end. Workspace
+    search color theme in VScode: Tomorrow night blue
+    This is code for the SERVER or back-end
+
+
+    Define server.js: 'use strict'
+
+    First we'll need a proof of life:
+        console.log('Our first server');
+        in command line: node server.js
+        IT WORKS!
+    
+    1. List all the things we need to install via terminal
+    <!-- Pay attention to the ROUTES -->
+    2. INSTALL express: npm i express. i is short for install.
+    3. Require: In our server we use "require" instead of IMPORT.
+    4. Create a server we bring in express. 
+    const express = required{"express"}
+
+    5. Once we require, we use. There are two steps to this.
+        First
+        const app = express();
+
+    6. INSTALL: npm i dotenv
+        require ('dotenv').config();
+    7. We should define our port. This confirms that our .env file is working correctly.
+    <!-- This will show us if there a problem with our .env or how it has been imported, the server will run on 3002. This will need to be fixed. -->
+    const PORT = process.env.PORT || 3002;
+
+        <!-- If you need to stop a port: npm kill-port 3001 -->
+        <!-- DO NOT DO THIS ON ANY PORT WE HAVE NOT USED. -->
+
+    8. Listen. This starts our server. 
+    app.listen{PORT, () => console.log(`listening on ${PORT}`)};
+
+To prevent starting and restarting a server
+- nodemon - this only needs to be done ONCE for the rest of your projects
+npm i -g nodemon
+this confirms nodemons existence
+npm -v
+// Nodemon -g allows us to restart server
+
+
+
+ROUTES
+Define a ROUTE
+
+We use routes to access our endpoints.
+
+    Create basic default route
+https://localhost:3001/
+app.get correlates for axios.get
+app.get takes in 2 arguments
+    1 - the url as a string ( '/' would be the root )
+    2 - a callback function
+    <!-- request/response refers to an object -->
+app.get('/', (request, response) => {
+    response.send('hello, from our server');
+});
+
+catch all (wildcard)
+~11:30~
+
+
+~11:38~
+When we console.log INSIDE A server, it console.logs to our terminal
+to run server nodemon command only once
+(request.query.firstName) allows us to dig down to get our specific info.
+We look for dataType query which is an object
+let firstName = request.query.firstName;
+let lastName = request.query.lastName
+
+
+
+~11:43~ dummy data
+
+<!-- This will bring in our json data -->
+let data = require('./pets.json');
+
+app.get('./pet', {request, resposne} => {
+
+
+
+<!-- in the browser it will look like http://localhost:3001/pets?species=dog -->
+How do we get the value of the request of species?
+
+let species = request.query.species;
+response.send(species);
+});
+
+If we have an array, how do we got all of the DOGS in an array? FILTER
+
+Instead of FILTER we will use something similar. This is called FIND.
+
+let userSearchingForSpecies = request.query.species;
+let dataToSend = data.find(pet => pet.species === userSearchingForSpecies)
+response.send(dataToSend);
+
+Doing this will return all data for our DOG object.
+
+
+What if we only wanted specific data from our object array? We create a class
+
+CLASSES
+
+~11:57~
+let dataToSend = new Pet{dataFromJSON};
+response.send
+
+class pet {
+    constructor (petObject) {
+        this.name = petObject.name;
+        this.breed = petObject.breed;
+    }
+}
+This will extract only the name and the breed and create new objects for each of these variables.
+
+FINALLY we will finish this off. Deploy.
+
+Render.com go to dashboard after signing in.
+Create a new Web service.
+
+city-explorer-API
+Call it a web service
+
+Once it deploys, we should be able to get the specified data inside of the browser.
+
+
+
+
+FRONT-END working: Set up a basic server
+GET THE CHROME EXTENSION: ????
+In the weather file, each object represents a city.
+
+Data is an array with 3 objects.
+
+We need to send a request to our server, to see if it has an object that represents seattle. If it does it will return information.
+
+You are sending the data back.
+
+~3:11~
+
+???????
+
+~3:23~
+
+
+TRY CATCH on back-end
+
+
+~3:27~ How do we deploy all of this???
+
+${process.env.REACT_APP_SERVER}
+We place this in our URL
+REACT_APP_SERVER=http://localhost:3001
+We place this inside of our .env folder
+
+shut down front end server: nodemon
+
+Netlify.com site works with REACT
+Render.com site works with SERVERS
+
+The hard part of today's lab is the last 30 minutes
+
+Sending back a response
