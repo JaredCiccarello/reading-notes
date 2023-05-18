@@ -1,0 +1,32 @@
+## Functional Programming Concepts
+
+1. What is functional programming?
+    In functional programming, programs are constructed by composing and manipulating functions. A function takes input arguments and produces a result based solely on those arguments.
+
+2. What is a pure function and how do we know if something is a pure function?
+    A pure function does not depend on any external factors nor does it modify any global variables. To determine is a function is pure we need to check if the function modifies globlal variables. We can also check to see if the function is printing to the console.
+
+3. What are the benefits of a pure function?
+    Some of the benefits of a pure function is that they are easy to understand because their behavior will be predictable. Another benefit is that you can test them in independently without worrying about external factors. Pure functions can be easier to reuse because they don't create concurrency issues.
+
+4. What is immutability?
+    This is the property of an object that cannot be modified after it has been created. When you attempt to modify this property, it will just create a new object. 
+
+
+5. What is Referential transparency?
+    Basically, if a function consistently yields the same result for the same input. pure functions + immutable data = referential transparency
+
+
+## Node JS Tutorial for Beginners #6 - Modules and require()
+
+1. What is a module?
+    A module is a section of code that is designed for reusability. 
+
+2. What does the word ‘require’ do?
+    Require is used to import modules
+
+3. How do we bring another module into the file we are working in?
+    We use 'require' instead of import.
+
+4. What do we have to do to make a module available?
+    To make a module available we generally need to develop the module, document it, package it, Publish the Module, and maintain.

@@ -32,30 +32,3 @@ The PUT method is often used for resource creation or updating when the client h
     the PATCH request method is used by a client to partially update an existing resource on a server. Unlike the PUT method, which replaces the entire resource, the PATCH method allows for making partial modifications to a resource by sending only the changes or updates.
 
 The PATCH method is commonly used when a client wants to apply specific modifications to a resource without sending the complete representation of the resource. It is useful in scenarios where it is more efficient or practical to send only the changes rather than the entire resource.
-
-
-https://my.locationiq.com/dashboard#accesstoken
-
-Geocoding API: 
-Access Token pk.58bcf315c7085a99b8efa8d378c24906
-
-
-https://www.weatherbit.io/account/dashboard
-
-Weather Bit API: abb2b4b1581f48c9a51e173d388e7de4
-UserName: Jared
-CulturedHike
-
-
-
-https://www.yelp.com/developers/v3/manage_app?saved_changes=True
-
-Yelp API Docs:
-XRY8NcxfLtlRug8mwM-jcydLhGcqjmCu7sFUqyAJAJ6jP8ZVqmt0XZdPqAsiIzivSty2gVRtfXxoaAY7yHcMlOSNTEHqCR4aMAfSDHPHXeUfGXT2DWaz1HfsjJ5hZHYx
-
-
-https://www.themoviedb.org/settings/api
-
-The Movie DB API Docs: f46809d7679fc6db87fe640580fb5147
-JaredCiccarello
-CulturedHike

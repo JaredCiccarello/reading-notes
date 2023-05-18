@@ -1,0 +1,208 @@
+May 17, 2023
+
+~9:07~ Code Challenge 7
+
+Question 6
+
+We need to drill down and only do the ingredients list. It's an array of strings.
+BIG HINT: Even though the ingredient unit is two words, it is seperated by a hyphen.
+
+How do we drill down just that ingredients array? recipe.ingredients
+
+It wants us to use .slice, how do we use this?
+
+We will want to use .forEach({ingred} => {
+    let withoutAmount = ingred.slice{ingred.indexOf(' ')};
+}
+
+Next we will console.log(withoutAmount)
+
+We will want to use .forEach({ingred} => {
+    let withoutAmount = ingred.slice{ingred.indexOf(' ') + 1};
+    let withoutAmount = withoutAmount.slice(withoutAmount.indexOf(' ') + 1);
+}
+
+console.log(withoutAmount)
+
+We will want to use .forEach({ingred} => {
+    let withoutAmount = ingred.slice{ingred.indexOf(' ') + 1};
+    let withoutAmount = withoutAmount.slice(withoutAmount.indexOf(' ') + 1);
+    result.push(withoutUnit);
+}
+
+
+This could be condensed on one line however
+                            Here we pass in the second thing again
+let onlyIngred = ingred.slice{(ingredient.indexOf(' '), + 1);
+results.push(onlyIngred)
+});
+return result;
+
+
+
+
+
+~9:25~ Code Challenge 8 Regex
+
+Regex = Regular Expressions
+
+They are the brunt of all jokes about javascript.
+
+Not very untuitive. Though very powerful.
+
+USAGE: IF I expect a type of data to be in a string. How do I know that this string knows it contains a phone number or an email?
+
+To declare the regex pattern, we create a variable.
+let regex = //;    Like this!
+
+let str = '';
+let arr = [];
+
+Like these examples, we know that the first one is a string and the second is an array based on their patterns. Regex is exactly the same way.
+
+let regex = /o/
+let string = "Fox jumps over the lazy dog";
+
+We want regex to find if this string has the letter "O"
+
+We do this by
+let hasPattern = regex.test(str);
+console.log(hasPattern);
+        YOU DID IT!
+
+
+        Regex101.com
+ECMAScript is the same thing as javaScript
+
+Here we can search for specific letters in the input box.
+
+We can also look for a range of letters.
+We do this by: [a-z]
+
+[A-Z]$ looks for the end of the lines for these letters
+[A-Za-z]* looks for ??????
+
+If we want to find all of the words that have the letter "O"
+\w* o \w*
+
+
+
+A REPLIT example:
+let reg = /\w*0\w*/gm;
+
+this will returnn an array of all the matches, if there are matches.
+Or it will return null if there are none.
+
+let matches = str.match(reg);
+console.log(matches);
+
+
+What if we have code that is explicitly looking for an array?
+let matches = str.match(reg) || []
+We would give it a value to also have an array to avoid breaking our code.
+
+
+
+What about regex numbers?
+206-888-8888
+
+^(206)*
+
+This will find specifically 206
+
+Today you will be asked to do Part 1 of Regex
+Sheyna will know if you copy and paste it.
+
+Code challenge today uses MATCH and MENTION
+For the STRETCH GOAL
+
+
+
+
+
+    ~10:05~ Lab 7 Review
+    Double check that your .env key is getting pushed up to github because it may get lost.
+
+    Double check locationIQ. HTTP refers should have NETLIFY and LOCALHOST
+
+    <div key=>
+
+    Worked on city-explorer front/backend local code
+
+    HTTP.CAT
+    HTTPstatusdogs.com
+    These two websites will help you figure out error codes.
+
+
+
+
+
+
+~11:14~ Lab 8 Review
+
+We want to give real time weather data rather than hard coded weather data.
+
+Now we get the key.
+
+How do we denote the start of our query string? We use a ?key=
+
+How do we denote a second query? &
+
+Going on TMDB will show us API documentation.
+If an API does NOT have a lot of documentation, probably don't use that.
+
+~11:24~ Image tags ???
+
+First part of the assignment, find where the weather data lives.
+
+THEN find information from TMBD for movie data.
+
+
+~11:28~
+
+Image finder kitten
+
+unsplash.com
+API, you CAN use this in your final project but please find something else if you can.
+
+I want to save this. Once We have the key, we must put it in an .env file.
+
+~11:32~ .env
+port=3001
+UNSPLASH_KEY_API=
+
+Everytime we change an env file, since it is hidden, we must restart the file using nodemon.
+
+~11:34~ This is our URL
+
+If we want to see where we are making our request, we can console.log our URL.
+
+What's the first thing we need to do with localHost3001? We must declare the path.
+
+star route catchall "These are not the droids you're looking for"
+~11:38~ 
+
+App.get{(*/photos', {req,res}) = {
+    res.send{'photos'};
+}};
+
+
+
+~11:52~ We will need to enter query
+
+~11:55~ Creating URL
+
+How are we going to make a request, what package do we use? axios
+
+~11:59~ Now we are getting kitten data
+
+We don't want all of this data however, so we will need to create a class. In this case photo class, so that we can drill down for these things.
+
+Make sure to enter a try catch in here.
+
+
+~12:10~ This is what's happening at each step of this.
+res.status
+This is sending
+
+We will need to make a movies route similar to the weather route
