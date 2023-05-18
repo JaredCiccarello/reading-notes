@@ -1,0 +1,50 @@
+## Understanding the JavaScript Call Stack
+
+1. What is a ‘call’?
+    A call or call stack is used for function invocation. At the most basic level, a call stack is a data structure that uses the Last In, First Out (LIFO) principle.
+
+2. How many ‘calls’ can happen at once?
+    Only one at a time.
+
+3. What does LIFO mean?
+    Last In First Out. This means that the last function that gets pushed into the stack is the first to be pop out, when the function returns.
+
+4. Draw an example of a call stack and the functions that would need to be invoked to generate that call stack.
+    function function1(){
+
+    }
+
+    function function2(){
+        function1
+    }
+
+5. What causes a Stack Overflow?
+    This happens with recursive functions, or functions that call themselves, with no exit.
+
+    This example is given in the reading: 
+    function callMyself(){
+        callMyself();
+        }
+
+        callMyself();
+
+
+## JavaScript error messages
+
+1. What is a ‘reference error’?
+    This happens when you attempt to use a variable that has not been declared.
+
+2. What is a ‘syntax error’?
+    This occurs when you have something that cannot be parsed in terms of syntax
+
+3. What is a ‘range error’?
+    This happens when you try to manipulate a length with invalid length. Such as setting a negative length for an array, arrays cannot have negative lengths.
+
+4. What is a ‘type error’?
+    This happens when you try to use types of data like a number or a string that are incompatible.
+
+5. What is a breakpoint?
+    Breakpoint is actually highly useful for wanting to stop code at specific points, so long as a condition is met. This is great for debugging specific values.
+
+6. What does the word ‘debugger’ do in your code?
+    Debugger is used to identify incorrect code and see the flow of a program.
