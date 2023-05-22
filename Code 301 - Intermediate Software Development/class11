@@ -1,0 +1,179 @@
+May 22, 2023
+
+~9:31~ Code 11 Review
+
+
+~9:23~
+
+
+~9:39~ 
+    !!!    Look at thursdays video
+        Why? To fix the photo issue.
+        Tiffany has solutions for this if you can't find the answer
+    !!!
+
+~9:55~ Cache miss error for City API
+
+Cache is an empty object
+
+Bracket key. This creates a property on the cache object, called cache.weather
+
+let cache = {
+    'weather22.535.3': {}
+}
+
+Anytime you use .then
+when using chaining, it is expecting that data.
+
+~10:18~
+Change 200 to a 500 error. Make sure to double check online for status response code. It will give you insight on what code to present.
+
+~10:20~
+Make sure you change your const PORT.
+
+
+
+
+~10:30~ chaining
+
+let strSPlit = str.split(' ');
+let strSplice = strSplit.slice(2);
+let strJoin = strSlice.join(' ')
+
+all 3 of these produce the same result (way 2 and 3 use chaining)
+
+
+~10:35~ Can of Book project start
+Partnered lab
+Make sure you prioritize your partner
+
+Relational vs. nonRelational database
+
+For this project we will be using MONGOOSE
+
+Think of MODEL as axios. It's our carrier pigeon. It's our communicator between servers.
+
+We will use our MODEL to help in MONGOOSE
+
+ALL OF 401 learn about SQL, we just aren't there yet.
+
+    MONGO SQL allws you to run a server on your computer. We will skip this because of how buggy it has been.
+
+MongoDB multi-cloud database will allow us to have this live on the cloud, instead of live on our computers.
+
+~1:51~ (Screenshot)
+When you finish, your page will look something like this.
+
+~11:01~ ????????????
+
+newData Steps
+    Model: This is "how" we add data to a database
+
+    Schema: This is the rules that determine if data can be added to database.
+
+    Database: 
+
+
+
+~11:03~ Setting up cats.js
+
+each cat in the database will need:
+    let aCat = {
+        name: "Mr. Mitolofelees',
+        color: "black and white',
+        spayNeuter: true,
+        location: 'London'
+    }
+
+This brings mongoose to the file
+    const mongoose = require('mongoose');
+
+Next we extract the schema
+    const { Schema } = mongoose;
+
+Next we create a cat schema. This defines how our subject comes in.
+    const catSchema = new Schema({
+        name: {type: String, required: true},
+        color: {type: String, required: true},
+        spayNeuter: {type: Boolean, required: true},
+        location: {type: String, required: true},
+    });
+
+Next we let mongoose.model know about the rules
+    const CatModel = mongoose.model('Cat', catSchema);
+
+
+// add validation to confirm we are wired up to our mongo DB
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function () {
+  console.log('Mongoose is connected');
+});
+
+Checking the backend with nodemon should present you a notification.
+
+mongodb, DO NOT PUT YOUR SOCIAL IN HERE!
+
+
+Try adding your mongo driver.
+
+setting up DB_URL
+~11:20~ Mongo password
+Auto-generate
+Make sure to hit save
+
+Anytime you update .env file
+
+FINALLY, tell it about the thing: connect Mongoose to our MongoDB on Atlas
+mongoose.connect(process.env.DB)
+
+
+Once we update the .env, what do we do on render.com? We update the render environments on render.com
+
+any .env variables need to be put on your netlify site
+
+seed.js it's called "seeding the pot" because everyone puts something in. This will be a seperate from the rest of your file.
+
+~2:47~
+
+
+
+~11:56~ Today's lab 11
+
+Front end/back end using axios
+
+Request from client to server using axios.get
+
+Then we request from server to database. Then from database back to server, which moves that data from server back to client.
+
+In order for the client to access the returned data from database to the server we will need a ROUTE.
+
+~12:09~ Now we have our data of cats!
+We get Id and _v from mongo
+
+What's next?
+
+~12:13~ We never invoke cats to this point
+
+The way that we do that is by: render ()
+
+So that when the site loads, this componont, it has all it needs, the data will be there.
+
+componentDidMount(){
+    this.getCats();
+}
+
+In the browswer console, we will notice an error: "Each child in a property should have a unique key property"
+    We will need to use the mongo ID key we were given key={cat._id}
+
+Create a plan with your partner
+
+
+CRUD
+C reate
+R ead
+U pdate
+D elete
+
+put 4 hours effort on the lab
+

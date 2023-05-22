@@ -1,0 +1,56 @@
+## Status Codes Based On REST Methods
+
+In your own words, describe what each group of status code represents:
+
+100’s = The user should continue with their request, as no issues arrived.
+200’s = The request was successful and there were no issues to be found.
+300’s = The resource you are looking for will be at a different location.
+400’s = User has made an error, possibly syntax involved, and will need to correct this before moving forward.
+500’s = A server error that is left intentionally hidden for privacy reasons.
+
+1. What is a status code 202?
+    User's request has been accepted and is processing but, is not yet complete.
+
+2. What is a status code 308?
+    Resource that you are looking for has been moved to the URL. Think of it like when Mario is looking for princess peach and Toad says she's moved to another castle. The 308 error is Toad.
+
+4. What code would you use if an update didn’t return data to a client?
+    204
+
+5. What code would you use if a resource used to exist but no longer does?
+    410
+
+6. What is the ‘Forbidden’ status code?
+    403
+
+## Build A REST API With Node.js, Express, & MongoDB - Quick - First 20 minutes
+
+1. Why do we need to pull our MongoDB database string out of our server and put it into our .env?
+    This helps to store sensitive information to limit this from being shared accidentally.
+
+2. What is middleware?
+    Software and cloud services that help developers build and deploy applications more efficiently.
+
+3. What does app.use(express.json()) do?
+    This adds a middleware function to express and parses incoming requests, as long as the dataType is JSON related.
+
+4. What does the /:id mean in a route?
+    This is a placeholder for a value. It allows for users to add dynamic values inside of a route. If you wanted to add '/users/123' this gives you place to do this.
+
+5. What is the difference between PUT and PATCH?
+    A PUT method is primarily used to update or replace an entire resource with a new representation provided in the request.
+
+    A PATCH method is used to apply partial updates to a resource. It allows you to send only the changes or modifications that need to be applied to the resource, rather than sending the entire updated representation.
+
+6. How do you make a default value in a schema?
+    You can use mongoose for this by typing out const mongoose = require('mongoose')
+
+Then you would type const schema = new mongoose.Schema
+
+This will set you up to create your variables.
+
+7. What does a 500 error status code mean?
+    500 error is a broad error code that is intentionally none specific to avoid revealing private information.
+
+8. What is the difference between a status 200 and a status 201?
+    Status code 200 means that a user's request was successful. While a 201 code means that a new resource has been successfully created.
