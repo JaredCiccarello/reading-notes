@@ -6,3 +6,7 @@ If you need to load anything using a network request or initialize the DOM? What
 Patch/fix version number?
 
 state.cityData.lon ???? How do we know to not use setState?
+
+Request and response needs to be the same?
+
+How do I make a nicer reading note list? Numbering, headers, spacing, setting links.

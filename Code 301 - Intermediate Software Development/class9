@@ -1,0 +1,138 @@
+May 18, 2023
+
+~9:05~ Code Challenge 8
+
+Question 5
+
+What method would we use? Match
+
+Match returns an array if there are no matches
+
+ Next, when I query your weather route, I can successfully pull data from the movie api?
+
+ It expected an empty array but, received NULL.
+This happens when you receive a character ????
+
+If pattern returns NULL it will be seen as falsey.
+
+|| [] This is how we deal with this issue.
+
+~9:20~ 5 is passing
+
+
+
+
+~9:23~ Lab 8 review
+
+When you first get a repo, make sure to npm install
+
+settings.json is where you will make sure to avoid keeping settings being sent to other people.
+
+It will run on 3002. This is because when we first pull a repo it will not have a .env file.
+Reminder, once we change an .env file we must always restart the server.
+
+why do we do city.data[0].lat instead of state.data[0].lat
+This is because we don't have access to the value in state. It will but, it takes a while. State is slow.
+
+
+Local HOST issue
+If you had a / to localhost3000/ what will happen? This will put in a an extra / because we have already done this when making our URL. Make sure to double check your console when using your front end.
+
+
+What does AXIOS do? It accesses the API in our server.
+Axios goes to make the request for us. 
+
+
+DEPENDENCY HELL: Someone broke code that we depended on and now our code is breaking.
+
+Request, Response, Next
+What does the request and response do?
+Request comes from our server
+Response is packaged and sent back.
+Note: Add in NEXT. Don't worry about what it does.
+
+
+~10:10~
+???????????
+
+~10:20~
+
+Where do find, in our moviesURL, in our backend? app.get '/movies'
+
+What does a ? mean? A query parameter
+
+
+
+If a value is undefined, what does that mean we can do on the front end?
+Try-Catch OR an If-Else
+
+
+
+
+
+~10:43~ Code Challenge 9
+
+lets creates an object 
+let luck = {
+    species: 'dog'
+    let: '4'
+    color: 'black'
+    isHungry: true
+}
+
+console.log(lucky.name); for name
+console.log(lucky); whole object
+
+ENTRIES
+object .entries
+        Capitalize the O
+let entries = Object.entries(lucky);
+This command turns each of our attributes and turns them into an array of arrays from top to bottom.
+
+KEYS
+let keys = Object.keys(lucky);
+console.log(keys);
+This command extract just the keys: Name, Species, Leg, Color. (Not isHungry this is a boolean)
+and put them side by side.
+
+VALUES
+let values = Object.values(lucky);
+console.log(values);
+This command extracts just the values: dog, 4, black, true
+
+~11:15~ Get photos
+
+
+
+
+~11:17~ Series of errors and fixes
+in backend we use module.exports = getPhotos
+
+We put axios in our new component photo.js in order to 
+
+~11:18?
+???????
+
+
+~11;29~
+
+let params = {
+    client_id: process.env.UNSPLASH_API_KEY
+}
+
+Tomorrow you will get code that you will need to debug slightly.
+
+
+
+CHAINING
+let str = 'The force is with you';
+
+let strSplit = str.split(' ');
+let strSplice = strSplit.slice(2);
+let let strJoin = strSlice.join(' ')
+
+
+
+You're probably gonna need to rewatch the video and take notes.
+
+
