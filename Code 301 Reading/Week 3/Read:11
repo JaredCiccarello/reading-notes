@@ -1,0 +1,60 @@
+## nosql vs sql
+
+SQL	
+1. Structured data model
+2. Vertically Scale
+3. Rigid Scheme
+4. Standarized language
+5. Suited for complex query like e-commerce platforms
+
+NoSQL
+1. Unstructured data model
+2. Horizontally Scale
+3. Flexible Scheme
+4. Their own language
+5. Suited for write/read
+
+
+1. What kind of data is a good fit for an SQL database?
+Give a real world example.
+Structured data. A real world example of this is retail stores. 
+
+2. What kind of data is a good fit a NoSQL database?
+Give a real world example.
+    Unstructured ddata. This is good for things like social media platforms.
+
+3. Which type of database is best for hierarchical data storage?
+    hierarchical database management system (Hierarchical DBMS)
+
+Which type of database is best for scalability?
+    NoSQL
+
+
+## sql vs nosql
+
+1. What does SQL stand for?
+    Structured Query Language
+
+2. What is a relational database?
+    database that organizes data into tables consisting of rows and columns
+
+3. What type of structure does a relational database work with?
+    relational model
+
+4. What is a ‘schema’?
+    a schema refers to the overall structure or blueprint of a database.
+
+5. What is a NoSQL database?
+    This is a database good for storing and retrieving data. 
+
+6. How does it work?
+    It stores key-values, they scale horizontally, allows for flexible data schema. 
+
+7. What is inside of a MongoDB database?
+    Collections, Documents, Fields, indexes, and sharding.
+
+8. Which is more flexible - SQL or MongoDB? and why.
+    MongoDB. Mongo is more flexible when collecting documents, using different query language, and even has rapidly evolving data models unlike SQL.
+
+9. What is the disadvantage of a NoSQL database?
+    They have limited querying. Steeper learning curve because of it's complex data type, redundancy in data, and issues with migrating data.
