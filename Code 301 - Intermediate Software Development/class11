@@ -177,3 +177,15 @@ D elete
 
 put 4 hours effort on the lab
 
+
+
+Render.com
+Whenever you set up render make sure these are changed.
+
+Grab NEW WEB SERVICE, not STATIC SITE.
+
+then add these variables: 
+    build command: npm install
+    start command: npm start
+
+Lab class 08 will show you how to do the carousel

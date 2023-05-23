@@ -1,0 +1,117 @@
+May 23, 2023
+
+Tomorrow's material is not on the assessment.
+
+Tomorrow's material is catch up for can of books.
+
+When women stop coding: Reading.
+
+Be on the lookout for Thursday exam
+
+
+
+
+~9:15~ Code Challenge 11 Review
+
+Question 6
+What are two things that we pass into reduce? Accumulator and the current value.
+
+(Screenshots of code)
+
+~9:27~ Code Challenge 12 Regex 2
+
+regex101.com
+
+List of phone numbers
+206 123 4567
+206 123 4567
+
+(^{206})|^(\{206\})-\d{3}
+
+
+
+
+~9:33~ Can of Books Review lab 11
+
+~9:41~ Start of review
+
+Make sure you have your .env pulling your password from mongoDB.
+
+app.get ('/') will give us all the values that we res.send. In our url using only our /.
+
+You must shutdown your server on the backend before you run node seed.js
+
+node seed.js will add our books to our mongo database but, only once and then stops.
+
+CRUD, Mongoose, REST, Axios, Express
+
+
+
+
+~10:34~ Front-End
+
+create a new component cats.js
+
+What do we need? Import, class, and export
+
+When you make a class, what do you need for the class? Render.
+
+import cats into main
+
+~10:45~ Indentation
+
+
+
+
+I want to add cats to database and delete from database
+~10:51~
+
+~10:57~??????
+
+
+~10:58~ Working in back-end
+
+Json data wants quotes.
+
+localhost/cats
+
+This will show up as undefined
+
+We need more middleware like (cors)
+We will need app.use(express.json());
+^^^^ Must have this in order to get a request from JSON.
+
+Make sure to choose POST inside thunderclient
+
+app.get
+app.post
+app.delete
+
+app.delete needs an ID sent from the front-end
+
+get the id
+localhost:3001/cats/ID-NUMBER-STRING
+
+Next we would need to make another async function
+~11:12~
+
+~11:16~ Making fake sage
+
+~11:22~ Added post and delete routes
+
+
+
+What is the natural default form of submit? Refresh.
+prevent event default. 
+We need this to prevent our page from refreshing.
+
+this.state.cats, createdCat.data
+Don't forget the .data
+
+When using axios the 3 things that are needed are:
+Async
+Await
+Data
+
+~11:58~ Ending video, rewatch video and take notes.
+
