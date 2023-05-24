@@ -1,0 +1,137 @@
+May 24, 2023
+
+~9:05~ Week overview
+
+Guest speaker tomorrow
+
+Assessment opening
+Any questions, make sure to write down
+    Question: What about a technical mock interview?
+4 hours long
+
+Tomorrow there is no code challenge.
+
+No penlty for turning quizzes in late. Focus on Career and quizzes on weekend. Focus in on labs.
+
+Friday we start project week.
+
+Code challenge 12, 13, and 15 review on Friday.
+
+
+When taking another repo, ensure you fork the repo of the main branch.
+
+~9:27~ Lab 12 review
+
+In order to get started with new code on your computer:
+    NPM i 
+    .env
+
+When writing out your REACT_APP_SERVER=localhost:3001
+DO NOT put / at the end. This will break the connection. This can happen if you copy and paste your localhost into .env ensure you double check.
+
+When you add MONGO DB in your .env find your link in connect/driver. Copy that link and paste it in. Change the password and after mongodb.net/ add in a name for your file. In our case it was books.
+
+Assessment tomorrow will not require you to add in a .env. You should still check for it.
+
+When you npm start on your front end
+You won't have any books render. This is because you do not have a node seed.js file running in your front end.
+
+For tomorrows assessment, you will need to use thunderclient and then use a POST request.
+
+~9:52~ A BUG!
+When you delete the last slide in your carousel, your website breaks. You can find out how to fix this by look online.
+
+
+~10:08~
+componentDidMount() is what causes our book data to render. 
+
+Axios is doing the heavy lifting for us.
+
+
+req.body: This fills in the details of our request.
+
+axios.post puts the request of newBook and puts it into req.body
+
+
+putting data directly into thunderclient, will give us a response from our server. 
+
+const books is considered what?
+
+~10:46~
+Setting for a specific id will allow app.delete to work. '/books/:id' will access the params.
+
+~10:49~
+THIS IS VERY IMPORTANT: When you are on a delete route, DO NOT send back an item. DO NOT assume that axios.delete will return anything. Make sure you send back an error code like 200, even though deleting something should not render an okay message like 200 code does.
+
+Note a 500, is a server error.
+
+ARROW FUNCTION NOTE: Whatever is on the right side of an arrow function is our condition!
+
+Submitting for this.state.books.filter(book._id !== id) this filters through our book id's and selects only the ID that the user has selected.
+
+
+
+
+
+~11:10~ Lab 13 Review
+
+Since we have an ID coming from the URL. How do we access to the ID value? req.params.id
+
+~11:23~
+findByIdAndUpdate takes in 3 arguments:
+ID : Req.body
+data object (new data we want in database)
+options object : {new:true}
+
+query, params, and body are 3 things we usually extract from req.
+
+overwrite: true
+This patch request updates the data and only that data.
+
+    WHAT QUESTIONS DO YOU HAVE ABOUT SPECIFIC VARIABLES? Let's find specific elements that you don't understand and ask about it.
+
+~11:33~ We have completed our checks!
+Using our thunderclient will help us to confirm that our database is working. This will be used for the assessment tomorrow.
+
+
+~11:36~
+Next we will want to add a form.
+
+Then we make a request to our back-end
+
+putCats = () => {
+    try {
+
+    } catch (error) {
+
+    }
+}
+
+To make a put request, what endpoint do we need to hit on our server? let url = `${server}/cats/${catToUpdate._id}`;
+We need to have the whole cat and not just the ID for our putCats.
+
+ACRONYM for TURNARY
+W hat
+T rue
+F alse
+(What does a turnary do?)
+
+~11:46~ Two buttons next to each other. (What did this do?)
+
+this.state.showUpdateForm
+
+preventDefault
+This prevents the server from restarting once we change a value.
+
+
+~11:58~
+Once we update, an empty string will result in falsey. So we will need an || this.props.cat.name
+
+This will prevent us from having to resubmit for data that we are not trying to change.
+
+
+Lab 13, update your information about a book
+
+
+Deploy early and deploy often.
+
