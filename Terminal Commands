@@ -24,9 +24,15 @@ TAB: will fill in blanks
 
 up arrows: will help fill in most recent command
 
+KILL PORT
+npx kill-port 3001
 
+This allows you to take ??????
+git fetch: Pulls all remote branches
+git switch <branch-name>: This switches to a specific branch.
 
 git branch -d -file name-
+This deletes the specified branch
 
 shift+alt+down arrow
 
@@ -34,6 +40,9 @@ Ctrl + D = Highlights all text that are exact copes.
 
 Touch Notes{1..12}
 Creates files called Notes 1-12
+
+mkdir Week{1..4}
+Creates folders called Week 1-4
 
 rm namefile nameoffile nailfile
 

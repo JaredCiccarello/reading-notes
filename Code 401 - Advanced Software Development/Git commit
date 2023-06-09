@@ -1,0 +1,34 @@
+
+
+^ : Caret operator
+This moves upwards one commit at a time
+
+~<num> : This allows you to move upwards a number of times
+git checkout HEAD~4
+
+This allows you to look up the parent of using main^
+
+main^^ Lets you look up the grandparent of main
+
+This makes it easier than typing the commit hash
+
+git checkout c3, git checkout HEAD^
+
+
+
+-f : Reassigns branch to a commit
+git branch -f main HEAD~3
+This moves (by force) the main branch to three parents behind HEAD
+
+git branch -f main C6
+
+
+
+Git Reset
+ reverses changes by moving a branch reference backwards in time to an older commit.
+Git reset HEAD~1
+  This method doesn't work for remote branches that others are using.
+In order to reverse changes and share those reversed changes with others, we need to use git revert.
+
+
+  LEVEL CHERRY-PICK INTRO

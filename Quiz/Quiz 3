@@ -1,0 +1,53 @@
+1. Considering the differences between SQL and NoSQL data stores, which of the following statements are true?
+    NoSQL are non-relational 
+    SQL databases use structured query language and have a predefined schema.
+    SQL databases are relational 
+
+2. How do you delete an item from MongoDB using Mongoose?
+    Model.deleteOne()
+
+3. Your node project will likely have dependencies on other libraries. Where are those dependencies declared?
+    package.json
+
+4. What is the difference between a GET request and a POST request?
+    You use a GET request when you are requesting resources to READ. You use a POST request when you CREATE resources.
+
+5. Which of the following text is valid JSON? (Select all that apply.)
+    {"key":3}
+    [1,2,3,4] 
+    {"key":true} 
+    {"key":"value"} 
+
+6. Which code will convert a JavaScript object into valid JSON?
+    JSON.stringify(object)
+
+7. How would you access 'b'?
+const obj = {
+  j:[
+    {x:{p:'g'}},
+    {m:{l:'h'},
+     y:[
+       'z',
+       'a',
+       'b',
+       'c'
+     ]
+    }
+  ],
+  k:'o'
+} 
+    obj.j[1].y[2] 
+
+8. My brother works as the principal of a vocational school. He wants to store student profiles from the LinkedIn API which has many levels of embedded object data.
+What type of database would you recommend he use, and what's the best reasoning?
+    NoSQL: since he will have a complex data object for each student, with a schema out of his control.
+
+9. What is the terminal command to initialize a node project?
+    npm init
+
+10. What is the ExpressJS library?
+    A web application framework for Node.js 
+
+11. Think about the data type returned by the JS array methods map() and reduce(). Which of the following statements are true? 
+    The data type returned by reduce() is customizable, based on what you pass in.
+    The map() function returns a new array.

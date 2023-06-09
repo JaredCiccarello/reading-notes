@@ -1,0 +1,38 @@
+
+https://sqlbolt.com/
+
+Operator ---	Condition	 --- SQL Example
+=, !=, < <=, >, >= ---	Standard numerical operators ---	col_name != 4
+
+BETWEEN … AND …	--- Number is within range of two values (inclusive)	--- col_name BETWEEN 1.5 AND 10.5
+
+NOT BETWEEN … AND …	--- Number is not within range of two values 
+(inclusive)	--- col_name NOT BETWEEN 1 AND 10
+
+IN (…)	--- Number exists in a list	--- col_name IN (2, 4, 6)
+
+NOT IN (…)	--- Number does not exist in a list	--- col_name NOT IN (1, 3, 5)
+
+
+
+Relational Databases and SQL are much more literal when searching for or creating databases.
+
+For example instead of creating `${database}` a template literal to identify specific information. You can specify WHERE BETWEEN AND, these allow for not only easier readability but, ease of use.
+
+Searching something like TITLE is much easier than having to identify specific IDs like in backend databases where the code may be a long string of numbers.
+
+
+
+![Lesson 1](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/ab090337-41b5-450b-9a36-c501f0f44e75)
+![Lesson 2](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/35cd3b9f-8f99-4045-a6a1-a2becabdd77b)
+![Lesson 3](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/bdc6c22f-b1eb-4f3d-a633-6a618829e52e)
+![Lesson 4](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/fc424cff-80c1-4bff-94f1-4de3503ef6f0)
+![Lesson 5](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/ac5d997a-5ea6-4c8c-8dee-1eaf72914fb6)
+![Lesson 6](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/bf1fcba4-f7cf-4f4b-a090-3c37cb9be789)
+![Lesson 13](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/f117916a-9892-43ae-b167-929e4204f9cb)
+![Lesson 14](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/b28ccd2b-7f80-4860-a0fa-e2a320afd8a6)
+![Lesson 15](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/3db4746e-4590-467d-a0cb-20b15ae7c3bc)
+![Lesson 16](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/d1a01dba-4c8d-40a0-9064-ea443abb5897)
+![Lesson 17](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/0fec466c-efa7-4434-aac9-04d2fa48951c)
+![Lesson 18](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/76c173c3-afa9-4675-8abd-705e8caee235)
+

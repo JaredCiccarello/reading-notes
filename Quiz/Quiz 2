@@ -1,0 +1,69 @@
+1. Which of the following code blocks is the most correct way to render list items from an `activities` array in the component's state?
+    class Profile extends React.Component {
+  render() {
+    return(
+      this.state.activities.map((activity, idx) => (
+        <li key={idx}>{activity}</li>
+      ))
+    )
+  }
+}
+
+class Profile extends React.Component {
+  render() {
+    return(
+      this.state.activities.map((activity, idx) => {
+        <li key={idx}>{activity}</li>
+      })
+    )
+  }
+}
+
+2. What does `.filter()` return?
+    A new array with a length less than or equal to the original array. 
+
+
+3. What response status code should a server send to the client when the server program hits an error unexpectedly?
+    500
+
+4. What does WRRC stand for?
+    Web Request Response Cycle 
+
+5. What kind of tool do we use to analyze our JavaScript for potential errors while we are writing code?
+    Linter
+
+
+6. Give the following code:
+
+const ticketPrice = isMember ? '$2.00' : '$10.00';
+What is value of ticketPrice?
+    "$2.00" if `isMember` is true, and "$10.00" if `isMember` is false.
+
+
+
+7. What will log to the debug console?
+
+
+const title = 'Boss';
+
+if (title === 'Boss') {
+
+  title = title.toUpperCase();
+
+}
+
+console.log('Title:', title);
+    Nothing, there is an Uncaught TypeError in the code.
+
+8. What is a reason to NOT use an ES6 arrow function?
+    The function needs to refer to the contextual "this" 
+
+9. What values does JavaScript consider 'falsy' ?
+    Null
+    False
+    Undefined
+    0
+    empty string
+
+10. When a function is a property of an object what is it called?
+    Method
