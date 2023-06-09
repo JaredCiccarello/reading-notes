@@ -22,7 +22,7 @@ For example instead of creating `${database}` a template literal to identify spe
 Searching something like TITLE is much easier than having to identify specific IDs like in backend databases where the code may be a long string of numbers.
 
 
-
+(I tried adding the images here but, for some reason I couldnt get them to render. Forcing me to submit them as images inside of a folder instead of all in one file)
 ![Lesson 1](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/ab090337-41b5-450b-9a36-c501f0f44e75)
 ![Lesson 2](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/35cd3b9f-8f99-4045-a6a1-a2becabdd77b)
 ![Lesson 3](https://github.com/JaredCiccarello/data-structures-and-algorithms/assets/126429063/bdc6c22f-b1eb-4f3d-a633-6a618829e52e)
