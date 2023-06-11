@@ -1,0 +1,69 @@
+LINUX Tutorial
+
+~The Command Line~
+What is it? 
+  A command line, or terminal, is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text.
+How does it work? 
+  Entering a command into the command line provides a prompt. The result is then displayed in the command line.
+How do I get to one? 
+  If you're on a Mac then you'll find the program Terminal under Applications -> Utilities. An easy way to get to it is the key combination 'command + space' which will bring up Spotlight, then start typing Terminal and it will soon show up.
+  If on Linux then you will probably find it in Applications -> System or Applications -> Utilities. Alternatively you may be able to 'right-click' on the desktop and there may be an option 'Open in terminal'.
+  If you are on Windows and intend to remotely log into another machine then you will need an SSH client. A rather good one is Putty (free) .
+
+~Basic Navigation~
+pwd: which stands for Print Working Directory
+ls: short for list
+
+There are 2 types of paths we can use, absolute and relative.
+Absolute paths specify a location (file or directory) in relation to the root directory.
+Relative paths specify a location (file or directory) in relation to where we currently are in the system.
+
+cd helps us to navigate up or down to another directory.
+cd can be run without a location
+
+
+~More about files~
+Everything is a file.
+Text file
+Directory file
+Monitor file
+
+Linux an extensionless system. A file extension is normally a set of 2 - 4 characters after a full stop at the end of a file, which denotes what type of file it is.
+
+Under Linux the system actually ignores the extension and looks inside the file to determine what type of file it is.
+
+Linux is case sensitive.
+This means that it is possible to have two or more files and directories with the same name just in different case.
+
+Spaces in names are valid. The caveate is that we will need to use quotes.
+Like with "Holiday Photos"
+Another is to use backslashes /home/ryan/Documents/Holiday Photos
+
+
+~Manual Pages~
+The manual pages are a set of pages that explain every command available on your system including what they do, the specifics of how you run them and what command line arguments they accept.
+
+This is called the man<command>
+
+Keyword search: This can be helpful if you're not quite sure of what command you may want to use but you know what you want to achieve.
+
+Long hand is two dashes --
+short hand is one dash -
+
+Special note: Don't try to remember everything, simply remember you can look stuff up in the man pages.
+
+~File Manipulation~
+Linux organises it's file system in a hierarchical way.
+
+Creating and deleting a directory is simple but, there is no undo button.
+
+rmdir - remove directory
+
+touch <filename> - creates a file
+
+cp - copies a file or directory
+
+mv - moves a directory
+
+rm = removes/deletes a file
+
