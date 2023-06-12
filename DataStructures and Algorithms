@@ -1,0 +1,26 @@
+What is 1 of the more important things you should consider when deciding which data structure is best suited to solve a particular problem?
+
+The way that we decide which data structure is best suited is by asking "What operation are we preforming?" and "How often are we going to be executing?"
+
+  Array operations: is a structure of fixed-size, which can hold items of the same data type. It can be integers, strings, or array of arrays.
+  3 operations Traverse, Search, and Update
+
+  Linked Lists: is a sequential structure that consists of a sequence of items in linear order which are linked to each other.
+  Elements in a linked list are known as nodes.
+  The attribute named head points to the first element of the linked list.
+  The last element of the linked list is known as the tail.
+
+  Stacks: is a LIFO (Last In First Out — the element placed at last can be accessed at first) structure which can be commonly found in many programming languages. It's called this because it resembles a real world set of plates.
+
+  Queues: is a FIFO (First In First Out — the element placed at first can be accessed at first) structure which can be commonly found in many programming languages. This structure is named as “queue” because it resembles a real-world queue — people waiting in a queue.
+
+  Hash Tables: is a data structure that stores values which have keys associated with each of them.
+
+  Trees: is a hierarchical structure where data is organized hierarchically and are linked together.
+
+  Heaps: is a special case of a binary tree where the parent nodes are compared to their children with their values and are arranged accordingly.
+
+  Graphs: A graph consists of a finite set of vertices or nodes and a set of edges connecting these vertices.
+
+How can we ensure that we’ll avoid an infinite recursive call stack?
+  By identifying the base cases that the recursive calls.
