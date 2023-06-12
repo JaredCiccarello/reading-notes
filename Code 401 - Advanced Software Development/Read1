@@ -1,0 +1,14 @@
+In the context of the reading “Pain and Suffering,” describe the main challenges faced by beginners when learning Python and suggest at least two strategies for overcoming these obstacles.
+Knowledge is PAIN and suffering is pain without ambition. Beginners of Python do not know this. Experts in Python have come to accept this.
+  1. Remembering why you chose this for yourself and to keep going.
+  2. Ensuring you don't give up even though it's difficult. You will for-go sleep, exercise, and personal time to excel in python, stay focused.
+
+After reading “Beginners Guide to Big O,” explain the concept of time complexity and space complexity.
+   O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.
+
+Based on the “Names and Values in Python” reading, explain the difference between mutable and immutable data types in Python.
+  Immutable data is data that cannot be modified. In order to change these values you will need to create new objects. 
+  x=5 changed to x = x + 1 making new x = 6
+
+  Mutable data allows modifications. This allows you to modify data without new objects.
+  A list of my_list=1,2,3,4 can have 5 added to the end of this list without adding a new object of my_list
