@@ -1,0 +1,28 @@
+What are the key principles of Test-Driven Development (TDD) in Python, and how do they contribute to the overall quality of code?
+
+  The 5 basic principles of TDD are:
+    Add a test.
+    Run all tests and see if any new test fails.
+    Write some code.
+    Run tests and Refactor code.
+    Repeat.
+
+  These steps help better design. These steps help to catch bugs and improve maintainability.
+
+Explain the purpose of the if __name__ == '__main__': statement in Python scripts. What are some use cases for including this conditional in your code?
+  By using the if __name__ == '__main__': statement, you can include a block of code that will only run when the script is executed as the main program.
+
+  Some cases for this are testability and organizing code.
+
+
+Describe the concept of recursion in Python.
+  This is a defined function that can call itself.
+
+What is the difference between Python modules and packages? Explain how to create, import, and use them in your Python programs.
+  A python module is a single file that contains defintions and statements. While a package is a way of organizing those modules.
+
+  In Python script, use .py extension in order to create new python file.
+  
+  In Python script, use the import statement to import the module.
+
+  In order to use, import statement to import modules from the package.
