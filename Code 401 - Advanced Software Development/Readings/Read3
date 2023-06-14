@@ -1,0 +1,32 @@
+1. What is the purpose of the ‘with’ statement when opening a file in Python, and how does it help manage resources while reading and writing files?
+  The purpose of the with statement in Python is that it replaces a try-catch block with a concise shorthand. It closes resources right after processing them. 
+  It helps to manage resources by automatically closing a file once it leaves the "with" block. 
+
+2. Explain the difference between the ‘read()’ and ‘readline()’ methods for file objects in Python. Provide examples of when to use each method.
+  The difference between read and readline is that read will go over the whole file at once and then print out the first characters that take up as many bytes as you specify in the parenthesis.
+  Readline will only read the line of the file and then print the first characters that take up as many bytes at you specify in the parenthesis.
+
+  You can use the read method when you need to only read a specific amount of data. 
+  with open(file_path, 'r') as file:
+
+  You can use the readline method when you need to only have certain amount of a line read.
+  f = open("demofile.txt", "r")
+  print(f.readline())
+
+3. Briefly describe the concept of exception handling in Python. How can the ‘try’, ‘except’, and ‘finally’ blocks be used to handle exceptions and ensure proper execution of code? Provide a simple example.
+
+  Try block catches code that may be an exception. If there is an exception to the code it moves to 'except'.
+
+  Except block defines the specific actions that will be taken when this exception takes place.
+
+  Finally block is the final result of our code. It can be used to help with cleanup or release resources. 
+
+  A simple example of this would be 
+      try: result = a / b 
+        print(f`** The result of {a} divided by {b} **`)
+      
+      except error:
+          print("Error: Cannot divide by zero!")
+      
+      finally:
+        print("Division operation completed.")
