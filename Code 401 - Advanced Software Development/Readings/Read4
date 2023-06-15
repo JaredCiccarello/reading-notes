@@ -1,0 +1,22 @@
+What are the key differences between classes and objects in Python, and how are they used to create and manage instances of a class?
+  The key difference between class and objects is:
+  Class, acts as a user defined data type. 
+  Object, is an instance of a class. 
+
+  Classes are used to create objects which in turn creates instances. 
+
+Explain the concept of recursion and provide an example of how it can be used to solve a problem in Python. What are some best practices to follow when implementing a recursive function?
+  Recursion is a program function that calls itself. This helps by breaking them down into smaller problems.
+  It can be used to solve a problem in python by, using a number of different methods. 
+  A couple of these we have already used, like the Fibonacci sequence. This sequence calls the previous two numbers and adds the result.
+  Lucas sequence also adds the first two numbers but, in the fibonacci the first two numbers are 0 and 1. In the lucas they are 2 and 1. 
+
+  The best practice when using a recursive function are to define a base case. The base case determines where a recursion should stop.
+  Memory usage is also very important as recursion can consume a significant amount of memory.
+  Make sure to test and debug carefully in order to prevent any hiccups in your code.
+
+
+What is the purpose of pytest fixtures and code coverage in testing Python code? Explain how they can be used together to improve the quality and maintainability of a project.
+  Pytest is used to manage apps states and dependencies. More importantly they can provide data for testing. Some of the different types are integers, strings, lists, dictionaries, and booleans.
+  
+  They can help with the maintainability of a project by setting up test data and ensuring tests are executed in a controlled and predictable environment. This also helps because you can define a fixture once and resuse it multiple times.
