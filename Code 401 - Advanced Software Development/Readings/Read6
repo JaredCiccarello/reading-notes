@@ -1,0 +1,17 @@
+1. How can the random module be utilized in Python to generate random numbers or make selections from a list, and what are some common functions available within the module?
+  random(): This function returns a random float number between 0 and 1 (inclusive of 0, exclusive of 1).
+  randrange(start, stop, step): This function returns a randomly selected element from the specified range.
+  randint(a, b): This function returns a randomly selected integer from the specified range, including both endpoints.
+  choice(sequence): This function returns a random element from a non-empty sequence such as a list or a tuple.
+  shuffle(sequence): This function shuffles the elements of a sequence randomly in place.
+
+2. In the context of software development, what is risk analysis, and what are the key steps involved in conducting a risk analysis for a software project?
+  Risk identification, assessment, prioritization, mitigation, monitoring, and documentation.
+
+
+3. What is test coverage and why is it an important (or potentially misleading) metric in software testing?
+  This is useful for identifying untested code, testing for quality, mitigating risks, refactoring. This can be misleading because it leads to a false sense of security. This is also misleading because testing shows the level of quantity but, not test for the level of quality.
+
+4. What is Big O notation, and how is it used to describe the performance of an algorithm? Give an example of an everyday task (not software related) that demonstrates O(n) time complexity.
+   Big O notation is a mathematical notation used to describe the performance or time complexity of an algorithm.
+   Searching for a specific item in an unsorted list, would be an example of time complexity.
