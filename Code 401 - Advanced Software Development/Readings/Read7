@@ -1,0 +1,58 @@
+1. Explain the concept of variable scope in Python and describe the difference between local and global scope. Provide an example illustrating the usage of both.
+  A variable scope is a portion of a program where a variable can be referenced.
+
+  Difference between local and global scope is that, local scope:
+Local variables are only accessible and visible within the function in which they are defined.
+Local variables are created when the function is called and destroyed when the function exits.
+Local variables cannot be accessed or modified from outside the function.
+
+While as Global Scope:
+Variables defined outside any function or at the top level of a module have a global scope.
+Global variables are accessible and visible from anywhere in the program, including inside functions.
+Global variables persist throughout the program's execution.
+Global variables can be accessed and modified from any part of the program.
+
+An example of this would be: 
+
+input: 
+global_var = 10
+
+def my_function():
+    # Local variable
+    local_var = 20
+
+Inside the function your local would be 20 and your global would be 10. However outside of your function your global would be 10 but, your local would not exist.
+
+2. How do the global and nonlocal keywords work in Python, and in what situations might you use them?
+  Global and nonlocal keywords are used to access variables in outer scopes. This allows you to assign a vlue to the variable from within a nested scope without creating a new local variable.
+
+  When using a nonlocal variable, it allows you to assign a new value.
+
+  You would use these keywords when you have a function that you want to modify in an enclosing scope.
+
+3. In your own words, describe the purpose and importance of Big O notation in the context of algorithm analysis.
+  Big O notation in simple terms, is a specific tool that calculates the time it takes for an algorithm to complete a task. It also identifies the amount of memory that is used when completing this task.
+
+4. Based on the Rolling Dice Example, explain how you would simulate a dice roll using Python. Describe how you would use code to calculate the probability of rolling a specific number (e.g., the probability of rolling a 6) over a large number of trials.
+  In order to simulate a dice roll, you would need to identify each side of a dice roll. In this case it would be 1 to 6.
+  You would also need to set for a random number between 1 to 6.
+
+  Next we would set for the attempts, for each dice throw. We set the number of attemps to 100 and find out how many throws out of 1000 it would take to reach a specific number. This helps us to estimate how many throws it takes to reach 6 each time so that we can average that number.
+
+  the code would like:
+
+  def roll_dice():
+    return random.randint(1, 6)
+
+  num_trials = 1000
+  number = 6
+  attemps = 0
+
+  for _ in range(num_trials):
+    result = roll_dice()
+    if result == number:
+      attempts += 1
+
+    probability = attempts / num_trials
+
+Here we can see that once we have the number of attempts to reach the number 6, we divide by the number of times it took to reach 6. Then we find the overall probability of reaching six, on average, a certain number of times.
