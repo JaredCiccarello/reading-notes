@@ -1,0 +1,26 @@
+1. What is the basic syntax of Python list comprehension, and how does it differ from using a for loop to create a list? Provide an example of a list comprehension that squares the elements in a given list of integers.
+  They allow you to generate new lists by applying transformations or filters to the elements of an existing list. The basic syntax of a list comprehension consists of square brackets [] enclosing an expression, followed by a for loop or multiple for loops and optional if statements.
+
+  An example of list comprehension that squares the elements 
+
+  original_list = [1, 2, 3, 4, 5]
+  squared_list = []
+
+  for x in original_list:
+    squared_list.append(x ** 2)
+
+2. What is a decorator in Python?
+  Decorators provide a way to wrap or decorate functions and classes with additional functionality by applying them to the target function or class definition using the @ symbol.
+
+3. Explain the concept of decorators in Python. How do they work, and what are some common use cases for them? Provide an example of a simple decorator function from the reading.
+  They provide a higher-order function or class that wraps or decorates the target function or class, adding extra functionality or altering its behavior. 
+
+The decorator is defined as a separate callable, typically a function or a class.
+
+The decorator takes the function or class being decorated as its argument.
+
+The decorator modifies or wraps the function or class, often by defining a wrapper function or subclass.
+
+The decorator returns the modified or wrapped function or class.
+
+The decorator is applied to the target function or class using the @ symbol, placed before the function or class definition.
