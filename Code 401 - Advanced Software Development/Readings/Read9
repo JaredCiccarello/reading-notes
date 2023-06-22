@@ -1,0 +1,24 @@
+1. What is the purpose of dunder methods in Python? Provide an example of a commonly used dunder method.
+
+  Known as magic methods or special methods, are used to define behavior for built-in operations or features of Python classes. They provide a way to customize and enhance the behavior of objects and make classes behave more like built-in types.
+
+__repr__ returns strings that are ideally a valid python expression, in order to recreate an object.
+  
+  __next__ is used to make objects iterable and define custom iteration behavior.
+
+  __len__ is used to define the length of an object
+
+2. In the video “AI Guru makes $238,800 with misleading paid course,” what was the main ethical issue raised concerning the use of developers’ work, and how might this have been avoided?
+  The main ethical issue raised, was that Siraj would use other peoples code without giving proper credit.
+
+  This would have been avoided if he would have simply been credited people whose code he took, and been honest about his level of involvement. 
+
+3. Describe the Python statistics module and give an example of a function within the module that can be used to perform a common statistical operation.
+  The Python statistics module is a built-in module that provides functions for performing various statistical operations.  It offers a range of functions to calculate basic statistical measures, such as mean, median, mode, variance, standard deviation, and more. The module is part of the Python Standard Library and does not require any external installations.
+
+  An example of a function within the module would be:
+
+  data = [1, 2, 3, 4, 5, 5, 6, 6, 7, 8, 9]
+  
+  mean_value = statistics.mean(data)
+  print("Mean:", mean_value)
