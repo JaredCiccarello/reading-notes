@@ -1,5 +1,7 @@
 ## reading-notes
 
+[Career Workshop](./Code%20401%20-%20Advanced%20Software%20Development/Week2/Screenshot%202023-06-23%20004629.png)
+
 Collaborators:
 ChatGPT
 
