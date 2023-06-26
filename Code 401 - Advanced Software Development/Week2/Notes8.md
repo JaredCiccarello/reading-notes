@@ -73,6 +73,8 @@ we import the exit method
 
 
 
+Imports are important because, it looks at imports from the root of your project. When you import as a module.
+When you import as a script, it imports from where the file is. So if you, when you write it as a script, where is your game?
 
 
 

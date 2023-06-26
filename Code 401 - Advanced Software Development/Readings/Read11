@@ -1,0 +1,38 @@
+1. What are the key features and benefits of Jupyter Lab, and how does it differ from Jupyter Notebook?
+  A few key features are:
+  1. Multi language support
+  2. Flexible Interface
+  3. Rich text editor
+
+  Jupyter lab differs from Jupyter Notebook because Jupyter Lab extends the capabilities of Jupyter Notebook. 
+
+2. What are the main functionalities provided by the NumPy library, and how can it be useful in Python programming, particularly for scientific computing and data manipulation tasks?
+  The main functionalities are: multi-dimensional array support, mathematical operations, broadcasting, indexing and slicing, array manipulation, and efficient computation, make it an essential tool for scientific computing and data manipulation tasks in Python.
+
+3. Explain the basic structure and properties of NumPy arrays, and provide examples of how to create, manipulate, and perform operations on them.
+  The basic structure and properties of NumPy include: Array indexing, Properties, creation, manipulation, and operations. 
+
+  Examples of these look like:
+
+    Array Indexing: 
+    my_list = [1, 2, 3, 4, 5]
+    arr = np.array(my_list)
+
+    Array Properties:
+    arr = np.array([[1, 2, 3], [4, 5, 6]])
+    print(arr.shape)  # Output: (2, 3)
+
+    Array Indexing and Slicing:
+    arr = np.array([1, 2, 3, 4, 5])
+    print(arr[2])  # Output: 3
+
+    Array Manipulation:
+    arr = np.array([1, 2, 3, 4, 5, 6])
+    reshaped_arr = arr.reshape((2, 3))  # Reshape to a 2x3 array
+    print(reshaped_arr)
+
+     Array Operations:
+     arr1 = np.array([1, 2, 3])
+     arr2 = np.array([4, 5, 6])
+     sum_arr = arr1 + arr2
+     print(sum_arr)  # Output: [5 7 9]

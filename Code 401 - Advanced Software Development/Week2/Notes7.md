@@ -105,3 +105,4 @@ Code Challenge
 DO NOT USE CHATGPT, highly discouraged
 
 
+MIDTERM IS GOING TO BE A COMMAND LINE, no website
