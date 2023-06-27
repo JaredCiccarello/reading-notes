@@ -89,7 +89,7 @@ MAIN FOCUS: Setting aside scoring dice
 
 
 python -m ten_thousand.game
-This will run this as a module
+This will run your game as a module
 BUT executes it as a script
 
 IF you run as a script, your imports will not work
