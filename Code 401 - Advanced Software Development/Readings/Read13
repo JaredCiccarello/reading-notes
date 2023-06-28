@@ -1,0 +1,25 @@
+1. Can you explain the basic concept of linear regression and its purpose in the context of machine learning and data analysis?
+  The basic idea behind linear regression is to find the best-fitting linear equation that describes the relationship between the input variables (independent variables) and the output variable (dependent variable). This equation takes the form:
+  y = mx + b
+  Here, 'y' represents the dependent variable, 'x' represents the independent variable, 'm' represents the slope or coefficient, and 'b' represents the y-intercept of the line. The goal of linear regression is to estimate the values of 'm' and 'b' that minimize the difference between the predicted values and the actual values of the dependent variable.
+
+2. Describe the process of implementing a linear regression model using Python’s Scikit Learn library, including the necessary steps and functions.
+  Prepare Data:  Ensure that your data is in a suitable format, such as NumPy arrays or pandas DataFrames.
+
+  Create an Instance of the Model: You can optionally specify any additional parameters during initialization.
+
+  Fit the Model: This step involves finding the optimal coefficients ('m' and 'b') that minimize the difference between predicted and actual values.
+
+  Make Predictions: Once the model is trained, you can use it to make predictions on new or unseen data using the predict() function.
+
+  Evaluate the Model: Assess the performance of your linear regression model using appropriate evaluation metrics. 
+
+3. What is the purpose of splitting the dataset into train and test sets, and how does this contribute to the evaluation of a machine learning model’s performance?
+
+  Primary purpose of splitting the dataset into sets are:
+    Model Training. Exposing the model to large portions of data, it can learn patterns between features and variable.
+    Model Evaluation. This evaluates the performance of the trained model.
+    
+To ensure a reliable evaluation, it is important to use a random and representative split of the data into train and test sets. Commonly, the data is divided into approximately 70-80% for training and 20-30% for testing, although the exact split can vary depending on the size of the dataset and the specific requirements of the problem.
+
+Additionally, in cases where hyperparameter tuning or model selection is performed, it is common to introduce a third set called the validation set. The dataset is then split into three parts: training set, validation set, and test set. The validation set is used to fine-tune the model and select the best-performing model before final evaluation on the test set.
