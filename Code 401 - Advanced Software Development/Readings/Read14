@@ -1,0 +1,37 @@
+1. What are the key differences between Matplotlib, Seaborn, and Bokeh libraries in terms of their features and use cases? Provide an example of a specific visualization that is more suitable for each library.
+  MATPLOTLIB
+  Matplotlib is a widely used plotting library that provides a flexible and extensive set of tools for creating static, animated, and interactive visualizations.
+  It offers a low-level API, allowing fine-grained control over plot elements.
+  Matplotlib is highly customizable, allowing users to create a wide range of visualizations.
+    An example of this is a scatter plat with trendline.
+  
+  SEARBORN
+  Seaborn is a higher-level data visualization library built on top of Matplotlib, providing a more concise syntax and additional statistical functionalities.
+  It focuses on producing aesthetically pleasing and informative visualizations with fewer lines of code.
+    An Example of this is a Box plot.
+  
+  BOKEH
+  Bokeh is a library that emphasizes interactive and web-based visualizations, allowing users to create interactive plots, dashboards, and applications.
+  It supports interactive features like tooltips, zooming, panning, and selection.
+  Bokeh is designed to be used in web browsers, enabling the creation of interactive visualizations for data exploration and presentation.
+    An example of this is an interactive line plot with hover tooltips.
+
+
+2. In the Seaborn library, what are the main functions to create relational, categorical, and distribution plots? Briefly explain the purpose of each type of plot and provide an example use case.
+  RELATIONAL PLOTS
+  Relational Plots: These are scatter plots that display a relationship bewtween two variables. They show trends over a continuous axis. Also, it gives you a flexible interface to create various types of plots.
+    An example of this would be: Using Relational Plots to determine positive or negative correlations between two different variables in a dataset.
+  
+  CATEGORICAL PLOTS
+  Categorical Plots generate a barplot which represent the relationship between a categorical variable and a continuous one. It also show's the count or frequency of unique values. There's also the boxplot which displays continuous variables across different categories and the violinplot, which does the the same as a boxplot. Except that it combines a boxplot and a kernel-density-plot.
+    An example of this would be: When you need to compare average values of a continuous variable across different categories. 
+  
+  DISTRIBUTION PLOTS
+  Distribution plots create a histogram of a single variable. It creates a kernel-density-plot to then estimate the density function of a continous variable. It also creates an empirical cumulative distribution function to display the cumulative distribution of a variable.
+    An example of this would be: Needing a histogram for the purpose of examining distribution and frequency of a single variable. 
+
+3. Discuss the role of the Seaborn Cheat Sheet in a Python developer’s workflow. What are some key sections or elements featured in the cheat sheet that can help a developer quickly reference Seaborn functionalities?
+  The Seaborn cheat sheet helps developers save time by providing examples and syntax reminders for various Seaborn functionalities. Whether it's selecting the appropriate plot type, customizing visual elements, or working with categorical or statistical plots, the cheat sheet serves as a handy reference to streamline the development workflow and enhance productivity when using Seaborn.
+
+  Some key sections or elements features in the cheat sheet are:
+    Plotting Functions, Plot Customization, Categorical Data Plots, Statistical Estimation, Grids and Subplots, and even Color Palettes. 
