@@ -1,0 +1,36 @@
+What are the key characteristics of serverless computing, and how does it differ from traditional server-based architectures?
+  Key characteristics are:
+  No server
+  Event driven
+  Pay-per-use
+  Automatic Scaling
+  Stateless Execution
+  Microservices
+
+  This differs from traditional server based architectures by scalibility, code modeling, resource allocation and infrasctructure management.
+
+How can one get started with Vercel, and what are the main steps involved in deploying a serverless function using Vercel?
+  1. Install Vercel from vercel.com
+  2. Create project
+  3. Create Serverless function:
+    module.export = (req, res) => {
+      res.status(200).send('');
+    }
+  4. Test the function
+  5. Deploy Vercel
+  6. Go to deployed function
+  7. Manage deployments.
+
+What are APIs, and how can they be utilized in Python applications to access and manipulate data from external sources?
+  API is short for Application Programming Interface. It is a set of rules and protocols that communicate with software applications to allow them to interact with one another. 
+  In Python you can access and manipulate data from external sources you do this by selecting an API, installing the necessary library, acquiring an access key, make a request, handle the response, manipulate the data, and handle any errors.
+
+What is the Requests library in Python, and how can it be used to interact with APIs by sending HTTP requests? Can you provide an example of a basic GET request using the Requests library?
+   Requests library in Python is an HTTP library that simplifies making HTTP requests, including interacting with APIs.
+   To use this to interact with API's you:
+   1. Import Requests
+   2. Send get request:
+    response = requests.get("https://api.example.com/data")
+   3. Check the status code looking for status code 200
+   4. Use Json method to parse data.
+Now you have your request!
