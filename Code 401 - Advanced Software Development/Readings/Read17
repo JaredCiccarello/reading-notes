@@ -1,0 +1,24 @@
+1. What are the key differences between scraping static and dynamic websites?
+ Static websites are built using HTML and CSS, where the content is fixed and doesn't change dynamically. When you visit a static webpage, the server sends the complete HTML content to your browser, and the page is displayed as-is.
+ Scraping static websites is relatively straightforward as the entire content is readily available in the HTML source code, and you can use techniques like parsing the HTML structure, identifying elements, and extracting data using libraries like BeautifulSoup.
+
+ Dynamic websites use technologies like JavaScript to generate and modify content on the client-side. The initial HTML received from the server might be minimal, and the actual content is often fetched and rendered dynamically through JavaScript code executed in the browser.
+
+2. Explain at least three techniques or best practices that can be employed to avoid getting blocked while scraping websites.
+  Respect Robots: Funny as it sounds this method, when scraping a website, check the robots.txt file and ensure that you are not accessing any restricted areas or violating the website's scraping guidelines. Ignoring the robots.txt file can result in your IP address being blocked or encountering other access restrictions. Robots.txt is a file used by websites to communicate their crawling and scraping policies to web crawlers. 
+
+  Request Headers: Websites can detect and block scraping activity based on the headers sent by your scraper. To mimic regular browser requests and avoid detection, you can set appropriate request headers. Some common headers to include are User-Agent, Referer, Accept-Language, and Accept-Encoding.
+
+  Implementation and proxies: Employing IP rotation and proxies can help avoid detection and prevent your IP address from being blocked. By using a pool of IP addresses or rotating your IP address between requests, you can distribute the scraping load and make it harder for websites to identify and block your scraping activity. 
+
+3. What is Playwright, and how does it assist in web scraping tasks? Provide an example of a use case where Playwright would be particularly beneficial.
+  Playwright is an open-source automation library developed by Microsoft. Playwright supports multiple browsers such as Chromium, Firefox, and WebKit, allowing you to write browser automation scripts that work across different browser environments.
+
+  An example of this would be: Scraping dynamic websites. Let's consider an example where you want to scrape data from a website that loads content dynamically using AJAX requests or single-page application (SPA) frameworks like React or Angular. The data you need may not be available in the initial HTML response but is fetched and rendered dynamically through JavaScript.
+
+4. Describe the purpose of using Xpath in web scraping, and provide an example of an Xpath expression to select a specific HTML element from a webpage.
+  XPath (XML Path Language) is a query language used to navigate and select elements within an XML or HTML document. In the context of web scraping, XPath is a valuable tool for locating and extracting specific elements or data from a webpage's HTML structure.
+
+  The purpose of using XPath in web scraping is to precisely target and extract desired elements based on their position, attributes, or hierarchical relationships. XPath expressions allow you to traverse the HTML document's structure and pinpoint specific elements using a concise syntax.
+
+  An example of an Xpath expression to select a specific element would be: //h1[@class='title']

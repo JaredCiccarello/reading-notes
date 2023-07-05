@@ -170,6 +170,8 @@ Every node to the right will be more than the root.
 If the root is 100, then everything will have be <100
   O of log n 
   this means every you can cut out half of the tree at every traversal
+No duplicates
+
 
 
 BINARY TREE
