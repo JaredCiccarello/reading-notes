@@ -1,0 +1,42 @@
+1. What is the basic principle behind the Caesar Cipher, and how was it used historically?
+  The basic principle behind the Caesar Cipher is a substitution cipher, where each letter in the plaintext is shifted a certain number of positions to create the corresponding ciphertext. It is named after Julius Caesar, who is believed to have used this cipher for communication during his time.
+
+  Historically the cipher was used for military purposes to send encoded messages. It provided a simple and effective way to conceal information from adversaries who were not aware of the specific shift used. The cipher served as a means of communication and ensured that sensitive messages could be transmitted with a reduced risk of interception or unauthorized access.
+
+2. What are the key differences between symmetric and asymmetric encryption? How is asymmetric used in secure communication today?
+  Key differences between symmetric and asymmetric encryption are:
+
+    Key usage
+In symmetric encryption, the same secret key is used for both encryption and decryption. The sender and the receiver must share the key in advance, keeping it confidential.
+
+Asymmetric encryption uses a pair of mathematically related keys: a public key for encryption and a private key for decryption.
+
+   Encryption and Decryption
+Symmetric encryption employs a single key to perform both encryption and decryption operations. 
+
+Asymmetric encryption utilizes two different keys, the public key and the private key.
+
+  Secure Key Exchange
+With symmetric encryption, the challenge lies in securely exchanging the shared secret key between the communicating parties. 
+
+Asymmetric encryption addresses the secure key exchange challenge by using the recipient's public key for encryption. 
+
+Today asymmetric encryption is used for digital signatures, key exchanges, and certificate authorization. 
+
+3. How do computers generate random numbers, and what are the differences between true random number generation (TRNG) and pseudo-random number generation (PRNG)? Discuss their use cases in cryptography.
+  
+  Computers generate random numbers by using two different methods known as true random number generation (TRNG) and pseudo-random number generation (PRNG).
+
+  The difference between TRNG and PRNG is that TRNG TRNG relies on physical processes or phenomena to generate random numbers. It captures unpredictable data from sources such as atmospheric noise, radioactive decay, or mouse movements. These sources provide inherently random and unpredictable values, which are used to generate random numbers. TRNGs produce numbers with high entropy and are considered truly random.
+
+  While PRNG algorithms generate numbers using deterministic mathematical algorithms. They start with an initial seed value and use mathematical operations to generate a sequence of numbers that appear random. PRNGs are deterministic, meaning that given the same seed, they will produce the same sequence of numbers. The quality of randomness depends on the algorithm used and the quality of the initial seed.
+
+
+  Use cases in cryptography
+  For TRNG randmoness is crucial. They are employed for generating cryptographic keys, initialization vectors (IVs), nonces, and other critical random values.
+
+  For PRNG They are often used as a basis for generating cryptographic keys, session keys, random values for encryption algorithms, and other purposes that require randomness. PRNGs are computationally efficient and can produce a large amount of random-looking data, making them suitable for many applications. 
+  
+
+4. What’s the difference between encryption and decryption? Explain with an analogy.
+  Think about wanting to keep something safe or secret in a vault. Encryption is entering items into that vault while decryption is entering the combination to get into the safe. 
