@@ -1,0 +1,34 @@
+1. How can you use regular expressions in Python to search for specific patterns in a string, and what is the primary module to work with them?
+  Step:
+  1. Import the re module:
+  2. Define a pattern:
+  3. Apply the pattern using the search() or match() function:
+  4. Perform actions based on the match result:
+
+The primary module used for regular expressions in Python is the re module.
+
+2. What is the purpose of the shutil module in Python, and provide an example of a common use case for file or directory management with this module?
+  The shutil (shell utilities) module in Python provides a high-level interface for file and directory operations. It offers convenient functions for copying, moving, renaming, and deleting files and directories. The primary purpose of the shutil module is to simplify file and directory management tasks.
+
+  An example of this is: 
+  import shutil
+
+  # Copy a single file
+  source_file = '/path/to/source/file.txt'
+  destination_file = '/path/to/destination/file.txt'
+  shutil.copy(source_file, destination_file)
+  
+  The shutil.copytree() function is used to copy an entire directory and its contents recursively from the source directory to the destination directory. It creates a new directory at the destination location and replicates the entire directory structure and files from the source to the destination.
+
+
+3. Compare and contrast the os and shutil modules. When would you choose to use one over the other?
+  Function
+ The os module provides a broad range of functions for interacting with the operating system. It offers low-level operating system-related functionalities, such as file system operations, process management, environment variables, and more.
+ 
+ The shutil module, on the other hand, focuses specifically on higher-level file and directory operations. It provides functions that are built on top of os module functionality, offering more convenience and abstraction.
+
+  Use Cases
+The os module is suitable when you need fine-grained control over operating system interactions. It is useful for low-level file operations, directory traversal, and other system-related tasks.
+The shutil module is designed to simplify common file and directory management tasks. It provides higher-level functions that abstract away the low-level details, making it easier to perform operations like copying, moving, renaming, and deleting files and directories.
+
+The os focuses on lower level operations, while the shutil focuses on higher level operations. Choosing one over the other will depend on the specific requirements that need to be met at the time of use.
