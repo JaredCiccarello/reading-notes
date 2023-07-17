@@ -1,0 +1,19 @@
+1. What are the key components of the Django framework, and how do they contribute to building a web application?
+  key components of the Django framework are: Model, View, Template, URL routing, Forms, Middleware, and ORM otherwise known as Object-Relational Mapping.
+    These components contribute by
+  Model: Defines the database schema and includes features such as field types, relationships, and data validation.
+  View: Views handle user requests and generate responses.
+  Template: Templates define the structure and presentation of the applications user interface. 
+  URL Routing: This component allows developers to define clean and meaningful URLs, making the application more accessible and search engine-friendly.
+  Forms: Form component simplifies form handling by automatically generating form fields based on model definitions and handling form submission, validation, and error handling.
+  Middleware: Middleware sits between the web server and the Django application, processing requests and responses.
+  ORM (Object-Relational Mapping): ORM simplifies database operations by abstracting away the underlying database and providing a Pythonic interface for interacting with the data.
+
+2. Explain the role of Django’s MTV (Model-View-Template) architecture and how it handles a typical web request-response cycle.
+  The MTV separates the concerns of data handling (model), user interface (template), and request processing (view), providing a clear structure and promoting code organization.
+  MTV handles a typical web request-response cycle by:
+    Utilizing Model, Template, and View in order define the schema, define the structure and formatting of the web pages that the user uses, and handling sent requests.
+    This process repeats for each subsequent user request, allowing Django to handle the logic of data retrieval, processing, and presentation in a structured and organized manner. The MTV architecture promotes separation of concerns, making it easier to maintain and extend the application as it grows.
+
+3. What is the purpose of Tailwind CSS, and how does it differ from Bootstrap CSS?
+  Tailwind CSS and Bootstrap CSS differ in their approach to CSS framework development. Tailwind CSS focuses on providing a utility-first approach with extensive customization options, while Bootstrap CSS offers pre-built components and a more structured development experience. The choice between the two depends on the project requirements, development preferences, and the desired balance between flexibility and convenience.
