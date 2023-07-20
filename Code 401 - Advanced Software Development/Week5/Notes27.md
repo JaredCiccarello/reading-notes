@@ -29,7 +29,7 @@ THIS IS THE STEPS FOR SETTING UP A DJANGO WEBSITE
 mkdir filename
 create virtual environment
 pip3 install django
-freeze requirements
+pip3 freeze > requirements.txt
 
 django-admin startproject projectname .
 Create application: startapp filename(things)

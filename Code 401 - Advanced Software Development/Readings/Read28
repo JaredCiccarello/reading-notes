@@ -1,3 +1,5 @@
+Django CRUD and Forms
+
 1. How do Django Forms facilitate user input handling, and what are some key components of creating a form using the Django framework?
   Forms facilitate user input handling by:
 Define a form class: You need to create a form class that inherits from Django's forms.Form or forms.ModelForm class. This class represents the structure and behavior of the form. You define form fields as class attributes, specifying the field type and any validation rules.

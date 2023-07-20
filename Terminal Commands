@@ -51,3 +51,24 @@ npm start: opens up webpage
 git config --global --get http.proxy (Finding Proxy)
 git config --system --unset http.proxy (Unset Proxy)
 https://confluence.atlassian.com/bitbucketserverkb/can-t-clone-or-pull-due-to-a-git-outbound-proxy-779171769.html
+
+
+take filename
+This moves you directly into the file that you just created
+
+How to create aliases
+~ (Move you to the root of your computer)
+code . 
+In .zshrc at the bottom
+VENV Alias
+  alias 
+vi="python3 -m venv .venv"
+va = "source./.venv/bin/activate && python -m pip install -U pip"
+vd = 'deactivate'
+ga = 'git add.'
+gc = 'git commit'
+gpo = git push origin main'
+pmp = 'python manage.py'
+gch = 'git checkout'
+gcb = 'git checkout -b'
+pipf = 'pip freeze > requirements.txt'
