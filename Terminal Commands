@@ -72,3 +72,6 @@ pmp = 'python manage.py'
 gch = 'git checkout'
 gcb = 'git checkout -b'
 pipf = 'pip freeze > requirements.txt'
+
+https://kapeli.com/cheat_sheets/Oh-My-Zsh_Git.docset/Contents/Resources/Documents/index
+

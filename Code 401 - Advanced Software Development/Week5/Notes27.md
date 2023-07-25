@@ -32,7 +32,8 @@ pip3 install django
 pip3 freeze > requirements.txt
 
 django-admin startproject projectname .
-Create application: startapp filename(things)
+Create application: 
+python3 manage.py startapp filename(things)
 
 python3 manage.py startsnacks
 

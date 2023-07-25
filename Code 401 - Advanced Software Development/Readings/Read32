@@ -1,0 +1,39 @@
+1. What are the key components and purpose of Django Rest Framework (DRF) permissions, and how do they help in securing an API?
+
+Authentication: DRF provides various authentication classes to verify the identity of API users. This includes authentication methods like session-based authentication, token-based authentication, OAuth, etc. By using appropriate authentication classes, you can ensure that only authenticated users have access to specific API endpoints.
+
+Permissions: Permissions in DRF define rules that determine whether a user can access a particular API view or perform specific actions on resources. DRF offers several built-in permission classes like IsAuthenticated, IsAdminUser, IsAuthenticatedOrReadOnly, etc. These permission classes allow you to enforce access restrictions based on user roles or authentication status. For example, IsAuthenticated ensures only authenticated users can access the view, and IsAdminUser restricts access to administrators only.
+
+Authorization: DRF permissions are used for authorization, which means controlling what actions a user can perform on a resource they have access to. For example, you can define custom permissions to allow only the resource owner to modify or delete their own data while restricting others from doing so.
+
+Object-level Permissions: DRF provides object-level permissions to control access to specific objects or records. These permissions are useful when you want to allow users to access their own objects or restrict access to objects based on certain conditions. For instance, you can create a custom permission to allow a user to modify their own profile, but not others'.
+
+Safe Methods: DRF allows you to apply different permissions for "safe methods" (GET, HEAD, OPTIONS) and "unsafe methods" (POST, PUT, DELETE). This is useful when you want to allow read access to public resources but restrict write access to authenticated users only.
+
+
+
+How DRF Permissions Help Secure an API:
+
+By implementing appropriate authentication classes, you ensure that only authenticated users can access your API, preventing unauthorized access.
+Using DRF's built-in permission classes and custom permissions, you can enforce access restrictions based on user roles, authentication status, or other criteria, thereby controlling who can access what parts of your API.
+Object-level permissions enable granular control over individual objects, ensuring that users can only access or modify resources they own or are authorized to interact with.
+Differentiating permissions for safe and unsafe methods allows you to provide read-only access to public data while requiring authentication and authorization for modifying sensitive data.
+By combining authentication and permissions, DRF helps developers build robust, secure APIs that protect sensitive information and maintain the integrity of their data.
+
+
+
+2. In SQL, what is the purpose of the SELECT statement, and how would you use it to retrieve all columns from a table called ‘employees’?
+
+The SELECT statement is used to retrieve data from a database table. It allows you to specify which columns you want to retrieve and apply filtering conditions to limit the results.
+
+To retrieve all columns from a table called 'employees,' you can use the SELECT statement with the * wildcard symbol, which selects all columns.  SELECT * FROM employees;
+
+
+3. Can you explain the role of DRF Generic Views and provide examples of their usage in building a RESTful API?
+The role of DRF is to use pre-built view classes provided by DRF to simplify the process of building RESTful APIs. These generic views encapsulate common patterns and functionalities, reducing boilerplate code and promoting consistency in API design. They handle typical CRUD (Create, Retrieve, Update, Delete) operations for a model and can be easily customized based on specific requirements.
+
+Some examples of this are:
+ListCreateAPIView: This view is used for listing all instances of a model and creating a new instance. It corresponds to the HTTP methods GET (list) and POST (create).
+RetrieveUpdateDestroyAPIView: This view is used for retrieving, updating, and deleting a single instance of a model. It corresponds to the HTTP methods GET (retrieve), PUT/PATCH (update), and DELETE (delete).
+ListAPIView: This view is used for listing all instances of a model without allowing creation. It corresponds to the HTTP method GET (list).
+RetrieveAPIView: This view is used for retrieving a single instance of a model without allowing updates or deletion. It corresponds to the HTTP method GET (retrieve).

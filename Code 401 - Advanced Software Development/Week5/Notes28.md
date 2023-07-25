@@ -311,3 +311,5 @@ add 'DIRS': [BASE_DIR / 'templates']
 
 Last 30 minutes of video are required to help complete this project.
 
+to run your website
+python3 manage.py runserver
