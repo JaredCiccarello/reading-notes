@@ -1,0 +1,69 @@
+1. What is the primary purpose of JSON Web Tokens (JWTs) and how do they work in terms of encoding and decoding data?
+  The primary purpose of JSON Web Tokens (JWTs) is to securely transmit information between parties as a JSON object. They are commonly used for authentication and authorization in web applications and APIs. JWTs allow the server to generate a token that includes claims (information) about the user, such as their identity and the permissions they have. The token is then sent to the client, typically as a response to a successful login or authentication request. The client can then include this token in subsequent requests to the server to authenticate the user and access protected resources.
+
+JWTs work by encoding the claims (data) as a JSON object and digitally signing it. This encoding and signing process ensures the integrity and authenticity of the data. The token can be signed using a secret key (HMAC algorithm) or a public/private key pair (RSA or ECDSA algorithms).
+
+Here's a step-by-step explanation of how JWTs work in terms of encoding and decoding data:
+
+Token Creation (Encoding):
+
+The server generates a JSON object containing the claims (data) about the user or request.
+The JSON object is then converted to a string format, typically using the JSON format.
+The token consists of three parts separated by dots (.): the header, payload (claims), and signature.
+The header contains metadata about the token, such as the hashing algorithm used.
+The payload contains the claims (data) in the form of key-value pairs.
+The signature is created by taking the base64-encoded header and payload, concatenating them with a dot, and then encrypting the result using a secret key or private key.
+Token Transmission:
+
+Once created, the server sends the JWT as a response to the client (usually after successful authentication).
+The client stores the JWT, typically in a cookie, local storage, or as a custom HTTP header for subsequent requests.
+Token Validation (Decoding):
+
+When the client makes subsequent requests to the server, it includes the JWT in the request, either in the Authorization header or as a query parameter.
+The server receives the JWT and needs to validate its authenticity and integrity.
+Token Verification (Signature Verification):
+
+To validate the token's signature, the server takes the received JWT and decodes it.
+The server can extract the header and payload from the JWT to see the claims and the algorithm used for the signature.
+The server then uses the same algorithm and secret key or public key (if using public/private key pair) to recompute the signature from the header and payload.
+If the re-computed signature matches the signature in the token, it means the token is valid and hasn't been tampered with.
+Token Usage:
+
+Once the token is verified, the server can access the claims in the payload to identify the user or the request context.
+The server can then use the information from the token to authorize access to protected resources and perform necessary operations.
+
+
+2. How does JWT Authentication integrate with Django REST Framework to secure API endpoints, and what are the key components involved in this process?
+  JWT authentication can be integrated with Django REST Framework (DRF) to secure API endpoints by using the djangorestframework-simplejwt library. This library provides straightforward tools to handle JWT-based authentication in DRF.
+
+  The key components involved in this process are:
+  Install Required Libraries
+  Configure Django Settings
+  Obtain and Refresh Tokens
+  Include Tokens in API Requests
+  API View Protection
+  Token Validation and User Identification
+
+3. Why is Django’s built-in runserver not suitable for production environments, and what are some alternative server options that should be considered for deploying a Django application?
+Django's built-in runserver is not suitable for production environments for several reasons:
+
+Single-Threaded and Development-Oriented: The runserver is single-threaded and designed primarily for development purposes. It is not optimized for handling multiple concurrent requests, making it unsuitable for production traffic, which can lead to poor performance and response times.
+
+Limited Performance and Scalability: The runserver lacks advanced features and optimizations that are essential for handling high loads and scaling in production environments. It may struggle to handle a large number of requests simultaneously.
+
+Security Concerns: The runserver is not built with the same security measures as production-ready web servers. It does not offer features like secure sockets (HTTPS/SSL) support, which are crucial for securely transmitting sensitive data in production.
+
+Lack of Load Balancing and Redundancy: The built-in runserver does not support load balancing or redundancy configurations, which are essential for distributing incoming traffic across multiple servers to ensure stability and high availability.
+
+Debugging and Logging: While the runserver provides helpful debug information during development, it may expose sensitive information and error details in production, making it a security risk.
+
+Gunicorn (Green Unicorn): Gunicorn is a pre-fork worker model HTTP server that is commonly used to serve Django applications in production. It provides multiple worker processes to handle concurrent requests and supports asynchronous workers for increased performance.
+
+uWSGI: uWSGI is another popular option for serving Django applications. It is a full-featured application server that supports various protocols, including HTTP and WebSocket. uWSGI is highly configurable and provides features like load balancing, process management, and even running Python applications without an external web server.
+
+Apache with mod_wsgi: Apache HTTP Server can be used as a front-end server, serving static files and proxying requests to a backend Django application using mod_wsgi. This approach provides flexibility and allows you to leverage Apache's features.
+
+Nginx with uWSGI or Gunicorn: Nginx is a lightweight and high-performance web server that can act as a reverse proxy to serve static files and pass requests to a backend Django application running with uWSGI or Gunicorn.
+
+Docker with Docker Compose: Containerization with Docker allows you to package your Django application along with all its dependencies into a container. Docker Compose can then be used to define and manage the deployment of the entire application stack, including the web server and database.
+
