@@ -84,11 +84,12 @@ python3 -m venv .venv
 
 django-admin startproject filename
 
+pip3 install django
+
 Create application
 python3 manage.py startapp movie
 
 pip3 freeze > requirements.txt
-pip3 install django
 
 mkdir templates
 inside templates: 
