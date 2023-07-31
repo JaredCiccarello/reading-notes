@@ -1,0 +1,36 @@
+1. What are the key pieces of advice mentioned in the “Whiteboard Advice” reading assignment for successfully tackling whiteboard interviews?
+    COMMUNICATE
+  Make sure you communicate, now this doesnt just mean speaking out loud, it means asking for examples, clairyfing questions, ensuring you going down the right pathway. 
+  Asking for an interviewer to restate a problem not only does not hurt you but, it also gives you the ability to calm your nerves and get help in understanding a complex problem.
+
+    EDGE CASES
+  Just before you start coding, it is important to know what edge cases there might be. Will this problem involve numbers or letters? How long could this potentially be? Is there negatives or floats that could be involved in this problem?
+  Knowing your edge case will give you some insight on how to help solve your problem. 
+
+    TEST CASES
+  Do NOT forget to ask about test cases. These are free points that will help you during your interview.
+
+    PSEUDO CODE
+  There is no pseudo code in codefellows. However there is an algorithm which is kind of like writing pseudo code. When you establish a basic idea for how you plan to tackle the problem domain, it is a good idea to break down your solution using the algorithm. What potential things are you planning to put into your code and does it make sense?
+
+    CODE
+  Make sure that when you write your code, you ask the interviewer what they think of it. This helps the interviewer both stay involved in the process and helps keep you on the right path. If your code looks like it may be deterring from a logical course, the interviewer will typically not say anything unless prompted.
+
+    BONUS
+  If you feel stuck, its okay to ask for a little help. Asking for additional information or even an example that could point you in the right direction is not off limits. This isnt simply a test of your knowledge of code but, rather how you think through a problem and if youre mature enough to ask for help when needed.
+
+  Just remember, we are all human and asking for help doesnt mean you wont get the job, it just means you know how to communicate effectively when the time is needed.    
+
+    
+
+2. From the “6 tips to ace a whiteboard programming interview” article, can you identify and explain at least two strategies that can help improve your performance during a whiteboard programming interview?
+      Two of the strategies that can help improve my performance during a whiteboard is 
+          1. Asking to clarify questions. Communicating is well and good but, if you are unsure about what the problem even is it doesnt hurt to ask.
+          2. Dont forget to ask for test cases. These are simple points that you can get by just asking the interviewer something simple like "What are the test cases, are there any test cases?". Asking this question will not only net you some free points, it may even help you understand the problem domain as whole.
+
+3. What does Gayle McDowell say about interview preparation in the Engineering Interview Process Deconstructed video?
+  Gayle talks about marrying the process between companies looking for programmers and helps us understand that not all companies are a one size fits all. She speaks about her role at preparing candidates for an interview by helping them understand which questions they might more likely get and even what things they might need to be better prepared for in coding.
+    She explains that intelligence is important but, other factors are just as important such as work ethic. If you interview with someone with a seemingly strong work ethic but, get a bad boss, you may see a decline in work proficiency. The focus is to make sure that a person is smart, not necessarily intelligent. If someone is smart, they will break down problems even if they dont know the answer to that question.
+    Questions should be challenging and not focused in factual knowledge. Prepping people for these interviews is easier when we know what the company expects. If a company expects you to know factual information but, refuses to train you on this information then they may not care about it as much.
+    A good takeaway, the biggest thing she has seen that hurts people without Computer Science degrees, isnt that they arent smart enough. Its the insecurity that follows their lack of experience. Many people that are self taught must also be very confident in their ability to adapt to an unfamiliar environment. 
+    
